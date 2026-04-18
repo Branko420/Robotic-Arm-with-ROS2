@@ -1,4 +1,4 @@
 import sys
 if sys.prefix == '/usr':
     sys.real_prefix = sys.prefix
-    sys.prefix = sys.exec_prefix = '/home/pi/arm_ws/install/servo_pkg'
+    sys.prefix = sys.exec_prefix = '/workspace/install/servo_pkg'
