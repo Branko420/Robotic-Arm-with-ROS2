@@ -1,0 +1,20 @@
+running develop
+running egg_info
+writing servo_pkg.egg-info/PKG-INFO
+writing dependency_links to servo_pkg.egg-info/dependency_links.txt
+writing entry points to servo_pkg.egg-info/entry_points.txt
+writing requirements to servo_pkg.egg-info/requires.txt
+writing top-level names to servo_pkg.egg-info/top_level.txt
+reading manifest file 'servo_pkg.egg-info/SOURCES.txt'
+writing manifest file 'servo_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /workspace/install/servo_pkg/lib/python3.12/site-packages/servo-pkg.egg-link (link to .)
+Installing laptop_brain script to /workspace/install/servo_pkg/lib/servo_pkg
+Installing laptop_test script to /workspace/install/servo_pkg/lib/servo_pkg
+Installing servo_node script to /workspace/install/servo_pkg/lib/servo_pkg
+Installing virtual_servo_node script to /workspace/install/servo_pkg/lib/servo_pkg
+
+Installed /workspace/build/servo_pkg
+running symlink_data
+symbolically linking /workspace/build/servo_pkg/resource/servo_pkg -> /workspace/install/servo_pkg/share/ament_index/resource_index/packages
+symbolically linking /workspace/build/servo_pkg/package.xml -> /workspace/install/servo_pkg/share/servo_pkg

@@ -1,0 +1,16 @@
+In file included from [01m[K/workspace/src/deptrum-ros-driver/include/deptrum_ros_driver/ros2_device.h:20[m[K,
+                 from [01m[K/workspace/src/deptrum-ros-driver/src/ros2_node.cc:6[m[K:
+[01m[K/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp:47:6:[m[K [01;35m[Kwarning: [m[K#warning POINT_CLOUD_DEPRECATION_MESSAGE [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   47 | #    [01;35m[Kwarning[m[K POINT_CLOUD_DEPRECATION_MESSAGE
+      |      [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/workspace/src/deptrum-ros-driver/include/deptrum_ros_driver/ros2_device.h:20[m[K,
+                 from [01m[K/workspace/src/deptrum-ros-driver/src/ros2_device.cc:5[m[K:
+[01m[K/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp:47:6:[m[K [01;35m[Kwarning: [m[K#warning POINT_CLOUD_DEPRECATION_MESSAGE [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   47 | #    [01;35m[Kwarning[m[K POINT_CLOUD_DEPRECATION_MESSAGE
+      |      [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/workspace/src/deptrum-ros-driver/include/deptrum_ros_driver/ros2_device.h:20[m[K,
+                 from [01m[K/workspace/src/deptrum-ros-driver/include/deptrum_ros_driver/aurora900_ros2_device.h:4[m[K,
+                 from [01m[K/workspace/src/deptrum-ros-driver/src/aurora900_ros2_device.cc:2[m[K:
+[01m[K/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp:47:6:[m[K [01;35m[Kwarning: [m[K#warning POINT_CLOUD_DEPRECATION_MESSAGE [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   47 | #    [01;35m[Kwarning[m[K POINT_CLOUD_DEPRECATION_MESSAGE
+      |      [01;35m[K^~~~~~~[m[K

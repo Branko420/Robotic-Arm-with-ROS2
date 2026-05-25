@@ -1,0 +1,22 @@
+[17.048s] Invoking command in '/workspace/build/servo_pkg': PYTHONPATH=/workspace/build/servo_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/servo_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/build/servo_pkg/build --no-deps symlink_data --force
+[21.494s] running develop
+[23.670s] running egg_info
+[23.887s] writing servo_pkg.egg-info/PKG-INFO
+[23.890s] writing dependency_links to servo_pkg.egg-info/dependency_links.txt
+[23.892s] writing entry points to servo_pkg.egg-info/entry_points.txt
+[23.899s] writing requirements to servo_pkg.egg-info/requires.txt
+[23.899s] writing top-level names to servo_pkg.egg-info/top_level.txt
+[24.350s] reading manifest file 'servo_pkg.egg-info/SOURCES.txt'
+[24.357s] writing manifest file 'servo_pkg.egg-info/SOURCES.txt'
+[24.585s] running build_ext
+[24.590s] Creating /workspace/install/servo_pkg/lib/python3.12/site-packages/servo-pkg.egg-link (link to .)
+[24.597s] Installing laptop_brain script to /workspace/install/servo_pkg/lib/servo_pkg
+[24.608s] Installing laptop_test script to /workspace/install/servo_pkg/lib/servo_pkg
+[24.609s] Installing servo_node script to /workspace/install/servo_pkg/lib/servo_pkg
+[24.609s] Installing virtual_servo_node script to /workspace/install/servo_pkg/lib/servo_pkg
+[24.614s] 
+[24.615s] Installed /workspace/build/servo_pkg
+[24.616s] running symlink_data
+[24.617s] symbolically linking /workspace/build/servo_pkg/resource/servo_pkg -> /workspace/install/servo_pkg/share/ament_index/resource_index/packages
+[24.618s] symbolically linking /workspace/build/servo_pkg/package.xml -> /workspace/install/servo_pkg/share/servo_pkg
+[24.781s] Invoked command in '/workspace/build/servo_pkg' returned '0': PYTHONPATH=/workspace/build/servo_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/servo_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/build/servo_pkg/build --no-deps symlink_data --force

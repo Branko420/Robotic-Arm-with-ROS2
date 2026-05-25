@@ -1,0 +1,1 @@
+/workspace/src/arm_moveit_config/launch/spawn_controllers.launch.py

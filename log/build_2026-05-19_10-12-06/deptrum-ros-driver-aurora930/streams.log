@@ -1,0 +1,44 @@
+[0.251s] Invoking command in '/workspace/build/deptrum-ros-driver-aurora930': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspace/src/deptrum-ros-driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/install/deptrum-ros-driver-aurora930
+[0.509s] [31mCMake Error at CMakeLists.txt:2 (string):
+[0.514s]   string no output variable specified
+[0.514s] 
+[0.521s] [0m
+[1.897s] -- The C compiler identification is GNU 13.3.0
+[3.084s] -- The CXX compiler identification is GNU 13.3.0
+[3.488s] -- Detecting C compiler ABI info
+[4.842s] -- Detecting C compiler ABI info - done
+[5.234s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.255s] -- Detecting C compile features
+[5.288s] -- Detecting C compile features - done
+[5.471s] -- Detecting CXX compiler ABI info
+[7.015s] -- Detecting CXX compiler ABI info - done
+[7.251s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[7.255s] -- Detecting CXX compile features
+[7.262s] -- Detecting CXX compile features - done
+[7.423s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[9.417s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[10.101s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[11.034s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[12.660s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[13.160s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[13.755s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[14.384s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[16.942s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[17.056s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[18.919s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[19.439s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[19.767s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[21.390s] -- STREAM_SDK_TYPE: STELLAR400
+[21.392s] -- SYSTEM_PLATFORM: linux-x86_64
+[21.395s] -- Download deptrum-stream-stellar400-linux-x86_64-v1.1.2-18.04.tar.gz from http://192.168.104.3/data/ci_release/deptrum-stream/stellar400/release/linux-x86_64/deptrum-stream-stellar400-linux-x86_64-v1.1.2-18.04.tar.gz
+[155.734s] [31mCMake Error at cmake/Download.cmake:29 (message):
+[155.735s]   
+[155.735s]   http://192.168.104.3/data/ci_release/deptrum-stream/stellar400/release/linux-x86_64/deptrum-stream-stellar400-linux-x86_64-v1.1.2-18.04.tar.gz
+[155.736s]   doesn't exist.
+[155.743s] Call Stack (most recent call first):
+[155.743s]   cmake/Download.cmake:71 (download)
+[155.744s]   CMakeLists.txt:137 (download_sdk)
+[155.744s] 
+[155.745s] [0m
+[155.752s] -- Configuring incomplete, errors occurred!
+[155.836s] Invoked command in '/workspace/build/deptrum-ros-driver-aurora930' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspace/src/deptrum-ros-driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/install/deptrum-ros-driver-aurora930

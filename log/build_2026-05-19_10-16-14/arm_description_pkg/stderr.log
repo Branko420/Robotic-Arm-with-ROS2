@@ -1,0 +1,6 @@
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    STREAM_SDK_TYPE
+
+[0m

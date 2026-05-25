@@ -1,0 +1,9 @@
+# Default initial positions for custom_6dof_arm_final's ros2_control fake system
+
+initial_positions:
+  joint_1_gripper: 0
+  joint_2_wrist_roll: 0
+  joint_3_wrist_pitch: 0
+  joint_4_elbow: 0
+  joint_5_shoulder: 0
+  joint_6_base: 0

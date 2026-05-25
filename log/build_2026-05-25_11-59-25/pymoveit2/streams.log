@@ -1,0 +1,98 @@
+[0.017s] Invoking command in '/workspace/build/pymoveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/servo_pkg:/opt/ros/jazzy /usr/bin/cmake /workspace/src/pymoveit2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/install/pymoveit2
+[0.274s] -- The C compiler identification is GNU 13.3.0
+[0.465s] -- The CXX compiler identification is GNU 13.3.0
+[0.500s] -- Detecting C compiler ABI info
+[0.660s] -- Detecting C compiler ABI info - done
+[0.678s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.678s] -- Detecting C compile features
+[0.679s] -- Detecting C compile features - done
+[0.697s] -- Detecting CXX compiler ABI info
+[0.883s] -- Detecting CXX compiler ABI info - done
+[0.907s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.908s] -- Detecting CXX compile features
+[0.908s] -- Detecting CXX compile features - done
+[0.937s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.234s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.380s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.904s] -- Configuring done (1.9s)
+[1.912s] -- Generating done (0.0s)
+[1.915s] -- Build files have been written to: /workspace/build/pymoveit2
+[1.924s] Invoked command in '/workspace/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/servo_pkg:/opt/ros/jazzy /usr/bin/cmake /workspace/src/pymoveit2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/install/pymoveit2
+[1.927s] Invoking command in '/workspace/build/pymoveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/servo_pkg:/opt/ros/jazzy /usr/bin/cmake --build /workspace/build/pymoveit2 -- -j4 -l4
+[2.036s] Built target ament_cmake_python_symlink_pymoveit2
+[2.482s] running egg_info
+[2.483s] creating pymoveit2.egg-info
+[2.528s] writing pymoveit2.egg-info/PKG-INFO
+[2.529s] writing dependency_links to pymoveit2.egg-info/dependency_links.txt
+[2.529s] writing top-level names to pymoveit2.egg-info/top_level.txt
+[2.529s] writing manifest file 'pymoveit2.egg-info/SOURCES.txt'
+[2.664s] reading manifest file 'pymoveit2.egg-info/SOURCES.txt'
+[2.665s] writing manifest file 'pymoveit2.egg-info/SOURCES.txt'
+[2.721s] Built target ament_cmake_python_build_pymoveit2_egg
+[2.740s] Invoked command in '/workspace/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/servo_pkg:/opt/ros/jazzy /usr/bin/cmake --build /workspace/build/pymoveit2 -- -j4 -l4
+[2.761s] Invoking command in '/workspace/build/pymoveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/servo_pkg:/opt/ros/jazzy /usr/bin/cmake --install /workspace/build/pymoveit2
+[2.774s] -- Install configuration: ""
+[2.775s] -- Execute custom install script
+[2.779s] -- Symlinking: /workspace/install/pymoveit2/share/pymoveit2/environment/pythonpath.sh
+[2.794s] -- Symlinking: /workspace/install/pymoveit2/share/pymoveit2/environment/pythonpath.dsv
+[2.813s] -- Symlinking: /workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2-4.2.0-py3.12.egg-info/PKG-INFO
+[2.828s] -- Symlinking: /workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2-4.2.0-py3.12.egg-info/SOURCES.txt
+[2.846s] -- Symlinking: /workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2-4.2.0-py3.12.egg-info/dependency_links.txt
+[2.864s] -- Symlinking: /workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2-4.2.0-py3.12.egg-info/top_level.txt
+[2.881s] -- Symlinking: /workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/__init__.py
+[2.897s] -- Symlinking: /workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/gripper_command.py
+[2.917s] -- Symlinking: /workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/gripper_interface.py
+[2.935s] -- Symlinking: /workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/moveit2.py
+[2.953s] -- Symlinking: /workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/moveit2_gripper.py
+[2.970s] -- Symlinking: /workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/moveit2_servo.py
+[2.986s] -- Symlinking: /workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/robots/__init__.py
+[3.004s] -- Symlinking: /workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/robots/crane_x7.py
+[3.027s] -- Symlinking: /workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/robots/kinova.py
+[3.049s] -- Symlinking: /workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/robots/lbr.py
+[3.070s] -- Symlinking: /workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/robots/panda.py
+[3.092s] -- Symlinking: /workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/robots/phantomx_pincher.py
+[3.114s] -- Symlinking: /workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/robots/ur.py
+[3.130s] -- Symlinking: /workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/utils.py
+[3.147s] -- Symlinking: /workspace/install/pymoveit2/lib/pymoveit2/ex_allow_collisions.py
+[3.163s] -- Symlinking: /workspace/install/pymoveit2/lib/pymoveit2/ex_clear_planning_scene.py
+[3.177s] -- Symlinking: /workspace/install/pymoveit2/lib/pymoveit2/ex_collision_mesh.py
+[3.192s] -- Symlinking: /workspace/install/pymoveit2/lib/pymoveit2/ex_collision_primitive.py
+[3.205s] -- Symlinking: /workspace/install/pymoveit2/lib/pymoveit2/ex_fk.py
+[3.220s] -- Symlinking: /workspace/install/pymoveit2/lib/pymoveit2/ex_gripper.py
+[3.236s] -- Symlinking: /workspace/install/pymoveit2/lib/pymoveit2/ex_ik.py
+[3.253s] -- Symlinking: /workspace/install/pymoveit2/lib/pymoveit2/ex_joint_goal.py
+[3.269s] -- Symlinking: /workspace/install/pymoveit2/lib/pymoveit2/ex_orientation_path_constraint.py
+[3.283s] -- Symlinking: /workspace/install/pymoveit2/lib/pymoveit2/ex_pose_goal.py
+[3.300s] -- Symlinking: /workspace/install/pymoveit2/lib/pymoveit2/ex_servo.py
+[3.315s] -- Symlinking: /workspace/install/pymoveit2/share/ament_index/resource_index/package_run_dependencies/pymoveit2
+[3.330s] -- Symlinking: /workspace/install/pymoveit2/share/ament_index/resource_index/parent_prefix_path/pymoveit2
+[3.345s] -- Symlinking: /workspace/install/pymoveit2/share/pymoveit2/environment/ament_prefix_path.sh
+[3.363s] -- Symlinking: /workspace/install/pymoveit2/share/pymoveit2/environment/ament_prefix_path.dsv
+[3.378s] -- Symlinking: /workspace/install/pymoveit2/share/pymoveit2/environment/path.sh
+[3.393s] -- Symlinking: /workspace/install/pymoveit2/share/pymoveit2/environment/path.dsv
+[3.407s] -- Symlinking: /workspace/install/pymoveit2/share/pymoveit2/local_setup.bash
+[3.425s] -- Symlinking: /workspace/install/pymoveit2/share/pymoveit2/local_setup.sh
+[3.439s] -- Symlinking: /workspace/install/pymoveit2/share/pymoveit2/local_setup.zsh
+[3.454s] -- Symlinking: /workspace/install/pymoveit2/share/pymoveit2/local_setup.dsv
+[3.470s] -- Symlinking: /workspace/install/pymoveit2/share/pymoveit2/package.dsv
+[3.487s] -- Symlinking: /workspace/install/pymoveit2/share/ament_index/resource_index/packages/pymoveit2
+[3.505s] -- Symlinking: /workspace/install/pymoveit2/share/pymoveit2/cmake/pymoveit2Config.cmake
+[3.522s] -- Symlinking: /workspace/install/pymoveit2/share/pymoveit2/cmake/pymoveit2Config-version.cmake
+[3.537s] -- Symlinking: /workspace/install/pymoveit2/share/pymoveit2/package.xml
+[3.644s] Listing '/workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2'...
+[3.644s] Compiling '/workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/__init__.py'...
+[3.645s] Compiling '/workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/gripper_command.py'...
+[3.645s] Compiling '/workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/gripper_interface.py'...
+[3.645s] Compiling '/workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/moveit2.py'...
+[3.645s] Compiling '/workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/moveit2_gripper.py'...
+[3.645s] Compiling '/workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/moveit2_servo.py'...
+[3.645s] Listing '/workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/robots'...
+[3.646s] Compiling '/workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/robots/__init__.py'...
+[3.646s] Compiling '/workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/robots/crane_x7.py'...
+[3.646s] Compiling '/workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/robots/kinova.py'...
+[3.646s] Compiling '/workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/robots/lbr.py'...
+[3.646s] Compiling '/workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/robots/panda.py'...
+[3.646s] Compiling '/workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/robots/phantomx_pincher.py'...
+[3.647s] Compiling '/workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/robots/ur.py'...
+[3.647s] Compiling '/workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/utils.py'...
+[3.657s] Invoked command in '/workspace/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/servo_pkg:/opt/ros/jazzy /usr/bin/cmake --install /workspace/build/pymoveit2

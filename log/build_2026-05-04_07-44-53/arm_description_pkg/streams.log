@@ -1,0 +1,45 @@
+[0.109s] Invoking command in '/workspace/build/arm_description_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/servo_pkg:/opt/ros/jazzy /usr/bin/cmake /workspace/src/arm_description_pkg -DCMAKE_INSTALL_PREFIX=/workspace/install/arm_description_pkg
+[0.588s] -- The C compiler identification is GNU 13.3.0
+[1.054s] -- The CXX compiler identification is GNU 13.3.0
+[1.181s] -- Detecting C compiler ABI info
+[1.762s] -- Detecting C compiler ABI info - done
+[1.829s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.829s] -- Detecting C compile features
+[1.831s] -- Detecting C compile features - done
+[1.892s] -- Detecting CXX compiler ABI info
+[2.521s] -- Detecting CXX compiler ABI info - done
+[2.660s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.666s] -- Detecting CXX compile features
+[2.669s] -- Detecting CXX compile features - done
+[2.715s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.260s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[5.256s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[6.253s] -- Added test 'lint_cmake' to check CMake code style
+[6.271s] -- Added test 'xmllint' to check XML markup files
+[6.305s] -- Configuring done (6.1s)
+[6.360s] -- Generating done (0.0s)
+[6.378s] -- Build files have been written to: /workspace/build/arm_description_pkg
+[6.411s] Invoked command in '/workspace/build/arm_description_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/servo_pkg:/opt/ros/jazzy /usr/bin/cmake /workspace/src/arm_description_pkg -DCMAKE_INSTALL_PREFIX=/workspace/install/arm_description_pkg
+[6.427s] Invoking command in '/workspace/build/arm_description_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/servo_pkg:/opt/ros/jazzy /usr/bin/cmake --build /workspace/build/arm_description_pkg -- -j4 -l4
+[6.814s] Invoked command in '/workspace/build/arm_description_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/servo_pkg:/opt/ros/jazzy /usr/bin/cmake --build /workspace/build/arm_description_pkg -- -j4 -l4
+[6.902s] Invoking command in '/workspace/build/arm_description_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/servo_pkg:/opt/ros/jazzy /usr/bin/cmake --install /workspace/build/arm_description_pkg
+[6.972s] -- Install configuration: ""
+[6.974s] -- Installing: /workspace/install/arm_description_pkg/share/arm_description_pkg/urdf
+[6.979s] -- Installing: /workspace/install/arm_description_pkg/share/arm_description_pkg/urdf/idk_arm.urdf
+[6.981s] -- Installing: /workspace/install/arm_description_pkg/share/arm_description_pkg/urdf/robotic_arm.urdf
+[6.984s] -- Installing: /workspace/install/arm_description_pkg/share/ament_index/resource_index/package_run_dependencies/arm_description_pkg
+[6.988s] -- Installing: /workspace/install/arm_description_pkg/share/ament_index/resource_index/parent_prefix_path/arm_description_pkg
+[6.990s] -- Installing: /workspace/install/arm_description_pkg/share/arm_description_pkg/environment/ament_prefix_path.sh
+[6.994s] -- Installing: /workspace/install/arm_description_pkg/share/arm_description_pkg/environment/ament_prefix_path.dsv
+[6.995s] -- Installing: /workspace/install/arm_description_pkg/share/arm_description_pkg/environment/path.sh
+[7.000s] -- Installing: /workspace/install/arm_description_pkg/share/arm_description_pkg/environment/path.dsv
+[7.003s] -- Installing: /workspace/install/arm_description_pkg/share/arm_description_pkg/local_setup.bash
+[7.005s] -- Installing: /workspace/install/arm_description_pkg/share/arm_description_pkg/local_setup.sh
+[7.006s] -- Installing: /workspace/install/arm_description_pkg/share/arm_description_pkg/local_setup.zsh
+[7.012s] -- Installing: /workspace/install/arm_description_pkg/share/arm_description_pkg/local_setup.dsv
+[7.013s] -- Installing: /workspace/install/arm_description_pkg/share/arm_description_pkg/package.dsv
+[7.014s] -- Installing: /workspace/install/arm_description_pkg/share/ament_index/resource_index/packages/arm_description_pkg
+[7.020s] -- Installing: /workspace/install/arm_description_pkg/share/arm_description_pkg/cmake/arm_description_pkgConfig.cmake
+[7.021s] -- Installing: /workspace/install/arm_description_pkg/share/arm_description_pkg/cmake/arm_description_pkgConfig-version.cmake
+[7.022s] -- Installing: /workspace/install/arm_description_pkg/share/arm_description_pkg/package.xml
+[7.048s] Invoked command in '/workspace/build/arm_description_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/servo_pkg:/opt/ros/jazzy /usr/bin/cmake --install /workspace/build/arm_description_pkg

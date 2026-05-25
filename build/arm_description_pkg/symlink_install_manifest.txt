@@ -1,0 +1,17 @@
+/workspace/install/arm_description_pkg/share/arm_description_pkg/urdf/idk_arm.urdf
+/workspace/install/arm_description_pkg/share/arm_description_pkg/urdf/robotic_arm.urdf
+/workspace/install/arm_description_pkg/share/ament_index/resource_index/package_run_dependencies/arm_description_pkg
+/workspace/install/arm_description_pkg/share/ament_index/resource_index/parent_prefix_path/arm_description_pkg
+/workspace/install/arm_description_pkg/share/arm_description_pkg/environment/ament_prefix_path.sh
+/workspace/install/arm_description_pkg/share/arm_description_pkg/environment/ament_prefix_path.dsv
+/workspace/install/arm_description_pkg/share/arm_description_pkg/environment/path.sh
+/workspace/install/arm_description_pkg/share/arm_description_pkg/environment/path.dsv
+/workspace/install/arm_description_pkg/share/arm_description_pkg/local_setup.bash
+/workspace/install/arm_description_pkg/share/arm_description_pkg/local_setup.sh
+/workspace/install/arm_description_pkg/share/arm_description_pkg/local_setup.zsh
+/workspace/install/arm_description_pkg/share/arm_description_pkg/local_setup.dsv
+/workspace/install/arm_description_pkg/share/arm_description_pkg/package.dsv
+/workspace/install/arm_description_pkg/share/ament_index/resource_index/packages/arm_description_pkg
+/workspace/install/arm_description_pkg/share/arm_description_pkg/cmake/arm_description_pkgConfig.cmake
+/workspace/install/arm_description_pkg/share/arm_description_pkg/cmake/arm_description_pkgConfig-version.cmake
+/workspace/install/arm_description_pkg/share/arm_description_pkg/package.xml

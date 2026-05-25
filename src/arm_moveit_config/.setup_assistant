@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: arm_description_pkg
+    relative_path: urdf/idk_arm.urdf
+  srdf:
+    relative_path: config/custom_6dof_arm_final.srdf
+  package_settings:
+    author_name: Branko
+    author_email: kolevb780@gmail.com
+    generated_timestamp: 1777881238
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity

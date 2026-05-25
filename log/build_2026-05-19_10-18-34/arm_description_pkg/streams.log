@@ -1,0 +1,23 @@
+[0.527s] Invoking command in '/workspace/build/arm_description_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/servo_pkg:/opt/ros/jazzy /usr/bin/cmake --build /workspace/build/arm_description_pkg -- -j4 -l4
+[3.728s] Invoked command in '/workspace/build/arm_description_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/servo_pkg:/opt/ros/jazzy /usr/bin/cmake --build /workspace/build/arm_description_pkg -- -j4 -l4
+[3.815s] Invoking command in '/workspace/build/arm_description_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/servo_pkg:/opt/ros/jazzy /usr/bin/cmake --install /workspace/build/arm_description_pkg
+[3.969s] -- Install configuration: ""
+[3.980s] -- Execute custom install script
+[3.986s] -- Up-to-date symlink: /workspace/install/arm_description_pkg/share/arm_description_pkg/urdf/idk_arm.urdf
+[3.987s] -- Up-to-date symlink: /workspace/install/arm_description_pkg/share/arm_description_pkg/urdf/robotic_arm.urdf
+[3.987s] -- Up-to-date symlink: /workspace/install/arm_description_pkg/share/ament_index/resource_index/package_run_dependencies/arm_description_pkg
+[3.988s] -- Up-to-date symlink: /workspace/install/arm_description_pkg/share/ament_index/resource_index/parent_prefix_path/arm_description_pkg
+[3.995s] -- Up-to-date symlink: /workspace/install/arm_description_pkg/share/arm_description_pkg/environment/ament_prefix_path.sh
+[3.997s] -- Up-to-date symlink: /workspace/install/arm_description_pkg/share/arm_description_pkg/environment/ament_prefix_path.dsv
+[4.004s] -- Up-to-date symlink: /workspace/install/arm_description_pkg/share/arm_description_pkg/environment/path.sh
+[4.013s] -- Up-to-date symlink: /workspace/install/arm_description_pkg/share/arm_description_pkg/environment/path.dsv
+[4.014s] -- Up-to-date symlink: /workspace/install/arm_description_pkg/share/arm_description_pkg/local_setup.bash
+[4.015s] -- Up-to-date symlink: /workspace/install/arm_description_pkg/share/arm_description_pkg/local_setup.sh
+[4.022s] -- Up-to-date symlink: /workspace/install/arm_description_pkg/share/arm_description_pkg/local_setup.zsh
+[4.023s] -- Up-to-date symlink: /workspace/install/arm_description_pkg/share/arm_description_pkg/local_setup.dsv
+[4.024s] -- Symlinking: /workspace/install/arm_description_pkg/share/arm_description_pkg/package.dsv
+[4.110s] -- Up-to-date symlink: /workspace/install/arm_description_pkg/share/ament_index/resource_index/packages/arm_description_pkg
+[4.116s] -- Up-to-date symlink: /workspace/install/arm_description_pkg/share/arm_description_pkg/cmake/arm_description_pkgConfig.cmake
+[4.118s] -- Up-to-date symlink: /workspace/install/arm_description_pkg/share/arm_description_pkg/cmake/arm_description_pkgConfig-version.cmake
+[4.127s] -- Up-to-date symlink: /workspace/install/arm_description_pkg/share/arm_description_pkg/package.xml
+[4.153s] Invoked command in '/workspace/build/arm_description_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/servo_pkg:/opt/ros/jazzy /usr/bin/cmake --install /workspace/build/arm_description_pkg

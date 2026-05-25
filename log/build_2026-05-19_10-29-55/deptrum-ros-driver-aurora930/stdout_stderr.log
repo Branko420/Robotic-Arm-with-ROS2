@@ -1,0 +1,63 @@
+[ 11%] [32mBuilding CXX object CMakeFiles/aurora930_node.dir/src/ros2_node.cc.o[0m
+In file included from [01m[K/workspace/src/deptrum-ros-driver/include/deptrum_ros_driver/ros2_device.h:20[m[K,
+                 from [01m[K/workspace/src/deptrum-ros-driver/src/ros2_node.cc:6[m[K:
+[01m[K/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp:47:6:[m[K [01;35m[Kwarning: [m[K#warning POINT_CLOUD_DEPRECATION_MESSAGE [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   47 | #    [01;35m[Kwarning[m[K POINT_CLOUD_DEPRECATION_MESSAGE
+      |      [01;35m[K^~~~~~~[m[K
+[ 22%] [32mBuilding CXX object CMakeFiles/aurora930_node.dir/src/ros2_device.cc.o[0m
+In file included from [01m[K/workspace/src/deptrum-ros-driver/include/deptrum_ros_driver/ros2_device.h:20[m[K,
+                 from [01m[K/workspace/src/deptrum-ros-driver/src/ros2_device.cc:5[m[K:
+[01m[K/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp:47:6:[m[K [01;35m[Kwarning: [m[K#warning POINT_CLOUD_DEPRECATION_MESSAGE [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   47 | #    [01;35m[Kwarning[m[K POINT_CLOUD_DEPRECATION_MESSAGE
+      |      [01;35m[K^~~~~~~[m[K
+[ 33%] [32mBuilding CXX object CMakeFiles/aurora930_node.dir/src/aurora900_ros2_device.cc.o[0m
+In file included from [01m[K/workspace/src/deptrum-ros-driver/include/deptrum_ros_driver/ros2_device.h:20[m[K,
+                 from [01m[K/workspace/src/deptrum-ros-driver/include/deptrum_ros_driver/aurora900_ros2_device.h:4[m[K,
+                 from [01m[K/workspace/src/deptrum-ros-driver/src/aurora900_ros2_device.cc:2[m[K:
+[01m[K/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp:47:6:[m[K [01;35m[Kwarning: [m[K#warning POINT_CLOUD_DEPRECATION_MESSAGE [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   47 | #    [01;35m[Kwarning[m[K POINT_CLOUD_DEPRECATION_MESSAGE
+      |      [01;35m[K^~~~~~~[m[K
+[ 44%] [32mBuilding CXX object CMakeFiles/aurora930_node.dir/src/camera_parameters.cc.o[0m
+[ 55%] [32m[1mLinking CXX executable aurora930_node[0m
+[ 55%] Built target aurora930_node
+[ 66%] [32mBuilding CXX object subscribe_node/CMakeFiles/sub_node_ci.dir/src/sub_node_ci.cc.o[0m
+[ 77%] [32m[1mLinking CXX executable sub_node_ci[0m
+[ 77%] Built target sub_node_ci
+[ 88%] [32mBuilding CXX object subscribe_node/CMakeFiles/sub_node.dir/src/sub_node.cc.o[0m
+[100%] [32m[1mLinking CXX executable sub_node[0m
+[100%] Built target sub_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /workspace/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/environment/library_path.sh
+-- Symlinking: /workspace/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/environment/library_path.dsv
+-- Symlinking: /workspace/install/deptrum-ros-driver-aurora930/lib/deptrum-ros-driver-aurora930/aurora930_node
+-- Symlinking: /workspace/install/deptrum-ros-driver-aurora930/lib/deptrum-ros-driver-aurora930/sub_node
+-- Up-to-date symlink: /workspace/install/deptrum-ros-driver-aurora930/lib/deptrum-ros-driver-aurora930/aurora930_node
+-- Symlinking: /workspace/install/deptrum-ros-driver-aurora930/lib/deptrum-ros-driver-aurora930/sub_node_ci
+-- Symlinking: /workspace/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/99-deptrum-libusb.rules
+-- Symlinking: /workspace/install/deptrum-ros-driver-aurora930/lib/libdeptrum_stream_aurora900.so.1.1.19
+-- Symlinking: /workspace/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/doc/usage_aurora930.md
+-- Symlinking: /workspace/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/doc/RELEASE_AURORA930.md
+-- Symlinking: /workspace/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/rviz/aurora930-ros2.rviz
+-- Symlinking: /workspace/install/deptrum-ros-driver-aurora930/share/ament_index/resource_index/package_run_dependencies/deptrum-ros-driver-aurora930
+-- Symlinking: /workspace/install/deptrum-ros-driver-aurora930/share/ament_index/resource_index/parent_prefix_path/deptrum-ros-driver-aurora930
+-- Symlinking: /workspace/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/environment/ament_prefix_path.sh
+-- Symlinking: /workspace/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/environment/ament_prefix_path.dsv
+-- Symlinking: /workspace/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/environment/path.sh
+-- Symlinking: /workspace/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/environment/path.dsv
+-- Symlinking: /workspace/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/local_setup.bash
+-- Symlinking: /workspace/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/local_setup.sh
+-- Symlinking: /workspace/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/local_setup.zsh
+-- Symlinking: /workspace/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/local_setup.dsv
+-- Symlinking: /workspace/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/package.dsv
+-- Symlinking: /workspace/install/deptrum-ros-driver-aurora930/share/ament_index/resource_index/packages/deptrum-ros-driver-aurora930
+-- Symlinking: /workspace/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /workspace/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/cmake/deptrum-ros-driver-aurora930Config.cmake
+-- Symlinking: /workspace/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/cmake/deptrum-ros-driver-aurora930Config-version.cmake
+-- Symlinking: /workspace/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/package.xml
+-- Installing: /workspace/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/launch
+-- Installing: /workspace/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/launch/sub_node_ci_aurora930_launch.py
+-- Installing: /workspace/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/launch/aurora930_launch.py
+-- Installing: /workspace/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/launch/aurora930_multi_launch.py
+-- Installing: /workspace/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/launch/viewer930_launch.py
+-- Installing: /workspace/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/launch/__pycache__

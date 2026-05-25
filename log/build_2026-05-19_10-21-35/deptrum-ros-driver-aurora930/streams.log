@@ -1,0 +1,29 @@
+[0.301s] Invoking command in '/workspace/build/deptrum-ros-driver-aurora930': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/servo_pkg:/opt/ros/jazzy /usr/bin/cmake --build /workspace/build/deptrum-ros-driver-aurora930 -- -j4 -l4
+[1.502s] [ 11%] [32mBuilding CXX object CMakeFiles/aurora930_node.dir/src/ros2_node.cc.o[0m
+[9.833s] In file included from [01m[K/workspace/src/deptrum-ros-driver/include/deptrum_ros_driver/ros2_device.h:20[m[K,
+[9.833s]                  from [01m[K/workspace/src/deptrum-ros-driver/src/ros2_node.cc:6[m[K:
+[9.834s] [01m[K/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp:47:6:[m[K [01;35m[Kwarning: [m[K#warning POINT_CLOUD_DEPRECATION_MESSAGE [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[9.834s]    47 | #    [01;35m[Kwarning[m[K POINT_CLOUD_DEPRECATION_MESSAGE
+[9.838s]       |      [01;35m[K^~~~~~~[m[K
+[82.702s] [ 22%] [32mBuilding CXX object CMakeFiles/aurora930_node.dir/src/ros2_device.cc.o[0m
+[88.394s] In file included from [01m[K/workspace/src/deptrum-ros-driver/include/deptrum_ros_driver/ros2_device.h:20[m[K,
+[88.395s]                  from [01m[K/workspace/src/deptrum-ros-driver/src/ros2_device.cc:5[m[K:
+[88.395s] [01m[K/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp:47:6:[m[K [01;35m[Kwarning: [m[K#warning POINT_CLOUD_DEPRECATION_MESSAGE [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[88.404s]    47 | #    [01;35m[Kwarning[m[K POINT_CLOUD_DEPRECATION_MESSAGE
+[88.406s]       |      [01;35m[K^~~~~~~[m[K
+[178.643s] [ 33%] [32mBuilding CXX object CMakeFiles/aurora930_node.dir/src/aurora900_ros2_device.cc.o[0m
+[186.833s] In file included from [01m[K/workspace/src/deptrum-ros-driver/include/deptrum_ros_driver/ros2_device.h:20[m[K,
+[186.833s]                  from [01m[K/workspace/src/deptrum-ros-driver/include/deptrum_ros_driver/aurora900_ros2_device.h:4[m[K,
+[186.834s]                  from [01m[K/workspace/src/deptrum-ros-driver/src/aurora900_ros2_device.cc:2[m[K:
+[186.838s] [01m[K/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp:47:6:[m[K [01;35m[Kwarning: [m[K#warning POINT_CLOUD_DEPRECATION_MESSAGE [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[186.839s]    47 | #    [01;35m[Kwarning[m[K POINT_CLOUD_DEPRECATION_MESSAGE
+[186.839s]       |      [01;35m[K^~~~~~~[m[K
+[277.193s] [ 44%] [32mBuilding CXX object CMakeFiles/aurora930_node.dir/src/camera_parameters.cc.o[0m
+[280.358s] [01m[K/workspace/src/deptrum-ros-driver/src/camera_parameters.cc:4:10:[m[K [01;31m[Kfatal error: [m[Ktf2_geometry_msgs/tf2_geometry_msgs.h: No such file or directory
+[280.362s]     4 | #include [01;31m[K<tf2_geometry_msgs/tf2_geometry_msgs.h>[m[K
+[280.383s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[280.391s] compilation terminated.
+[280.412s] gmake[2]: *** [CMakeFiles/aurora930_node.dir/build.make:118: CMakeFiles/aurora930_node.dir/src/camera_parameters.cc.o] Error 1
+[280.413s] gmake[1]: *** [CMakeFiles/Makefile2:156: CMakeFiles/aurora930_node.dir/all] Error 2
+[280.422s] gmake: *** [Makefile:146: all] Error 2
+[280.443s] Invoked command in '/workspace/build/deptrum-ros-driver-aurora930' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/servo_pkg:/opt/ros/jazzy /usr/bin/cmake --build /workspace/build/deptrum-ros-driver-aurora930 -- -j4 -l4

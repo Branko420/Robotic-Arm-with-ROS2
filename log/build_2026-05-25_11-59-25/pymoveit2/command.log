@@ -1,0 +1,6 @@
+Invoking command in '/workspace/build/pymoveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/servo_pkg:/opt/ros/jazzy /usr/bin/cmake /workspace/src/pymoveit2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/install/pymoveit2
+Invoked command in '/workspace/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/servo_pkg:/opt/ros/jazzy /usr/bin/cmake /workspace/src/pymoveit2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/install/pymoveit2
+Invoking command in '/workspace/build/pymoveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/servo_pkg:/opt/ros/jazzy /usr/bin/cmake --build /workspace/build/pymoveit2 -- -j4 -l4
+Invoked command in '/workspace/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/servo_pkg:/opt/ros/jazzy /usr/bin/cmake --build /workspace/build/pymoveit2 -- -j4 -l4
+Invoking command in '/workspace/build/pymoveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/servo_pkg:/opt/ros/jazzy /usr/bin/cmake --install /workspace/build/pymoveit2
+Invoked command in '/workspace/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/servo_pkg:/opt/ros/jazzy /usr/bin/cmake --install /workspace/build/pymoveit2

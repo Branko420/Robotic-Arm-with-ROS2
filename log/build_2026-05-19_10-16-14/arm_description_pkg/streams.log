@@ -1,0 +1,39 @@
+[0.171s] Invoking command in '/workspace/build/arm_description_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/servo_pkg:/opt/ros/jazzy /usr/bin/cmake /workspace/src/arm_description_pkg -DSTREAM_SDK_TYPE=AURORA930 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/install/arm_description_pkg
+[0.437s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.564s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.828s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[6.917s] -- Added test 'lint_cmake' to check CMake code style
+[6.941s] -- Added test 'xmllint' to check XML markup files
+[6.965s] -- Configuring done (6.6s)
+[7.072s] -- Generating done (0.1s)
+[7.112s] [33mCMake Warning:
+[7.124s]   Manually-specified variables were not used by the project:
+[7.132s] 
+[7.135s]     STREAM_SDK_TYPE
+[7.139s] 
+[7.141s] [0m
+[7.142s] -- Build files have been written to: /workspace/build/arm_description_pkg
+[7.175s] Invoked command in '/workspace/build/arm_description_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/servo_pkg:/opt/ros/jazzy /usr/bin/cmake /workspace/src/arm_description_pkg -DSTREAM_SDK_TYPE=AURORA930 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/install/arm_description_pkg
+[7.194s] Invoking command in '/workspace/build/arm_description_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/servo_pkg:/opt/ros/jazzy /usr/bin/cmake --build /workspace/build/arm_description_pkg -- -j4 -l4
+[7.914s] Invoked command in '/workspace/build/arm_description_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/servo_pkg:/opt/ros/jazzy /usr/bin/cmake --build /workspace/build/arm_description_pkg -- -j4 -l4
+[8.092s] Invoking command in '/workspace/build/arm_description_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/servo_pkg:/opt/ros/jazzy /usr/bin/cmake --install /workspace/build/arm_description_pkg
+[8.197s] -- Install configuration: ""
+[8.199s] -- Execute custom install script
+[8.220s] -- Up-to-date symlink: /workspace/install/arm_description_pkg/share/arm_description_pkg/urdf/idk_arm.urdf
+[8.221s] -- Up-to-date symlink: /workspace/install/arm_description_pkg/share/arm_description_pkg/urdf/robotic_arm.urdf
+[8.227s] -- Up-to-date symlink: /workspace/install/arm_description_pkg/share/ament_index/resource_index/package_run_dependencies/arm_description_pkg
+[8.232s] -- Up-to-date symlink: /workspace/install/arm_description_pkg/share/ament_index/resource_index/parent_prefix_path/arm_description_pkg
+[8.237s] -- Up-to-date symlink: /workspace/install/arm_description_pkg/share/arm_description_pkg/environment/ament_prefix_path.sh
+[8.238s] -- Up-to-date symlink: /workspace/install/arm_description_pkg/share/arm_description_pkg/environment/ament_prefix_path.dsv
+[8.251s] -- Up-to-date symlink: /workspace/install/arm_description_pkg/share/arm_description_pkg/environment/path.sh
+[8.260s] -- Up-to-date symlink: /workspace/install/arm_description_pkg/share/arm_description_pkg/environment/path.dsv
+[8.262s] -- Up-to-date symlink: /workspace/install/arm_description_pkg/share/arm_description_pkg/local_setup.bash
+[8.270s] -- Up-to-date symlink: /workspace/install/arm_description_pkg/share/arm_description_pkg/local_setup.sh
+[8.271s] -- Up-to-date symlink: /workspace/install/arm_description_pkg/share/arm_description_pkg/local_setup.zsh
+[8.279s] -- Up-to-date symlink: /workspace/install/arm_description_pkg/share/arm_description_pkg/local_setup.dsv
+[8.285s] -- Symlinking: /workspace/install/arm_description_pkg/share/arm_description_pkg/package.dsv
+[8.406s] -- Up-to-date symlink: /workspace/install/arm_description_pkg/share/ament_index/resource_index/packages/arm_description_pkg
+[8.416s] -- Up-to-date symlink: /workspace/install/arm_description_pkg/share/arm_description_pkg/cmake/arm_description_pkgConfig.cmake
+[8.424s] -- Up-to-date symlink: /workspace/install/arm_description_pkg/share/arm_description_pkg/cmake/arm_description_pkgConfig-version.cmake
+[8.425s] -- Up-to-date symlink: /workspace/install/arm_description_pkg/share/arm_description_pkg/package.xml
+[8.453s] Invoked command in '/workspace/build/arm_description_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/servo_pkg:/opt/ros/jazzy /usr/bin/cmake --install /workspace/build/arm_description_pkg

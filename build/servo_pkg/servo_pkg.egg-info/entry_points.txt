@@ -1,2 +1,5 @@
 [console_scripts]
+laptop_brain = servo_pkg.laptop_brain:main
+laptop_test = servo_pkg.laptop_test:main
 servo_node = servo_pkg.servo_node:main
+virtual_servo_node = servo_pkg.virtual_servo_node:main

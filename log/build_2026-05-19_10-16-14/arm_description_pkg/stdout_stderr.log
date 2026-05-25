@@ -1,0 +1,33 @@
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (6.6s)
+-- Generating done (0.1s)
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    STREAM_SDK_TYPE
+
+[0m
+-- Build files have been written to: /workspace/build/arm_description_pkg
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /workspace/install/arm_description_pkg/share/arm_description_pkg/urdf/idk_arm.urdf
+-- Up-to-date symlink: /workspace/install/arm_description_pkg/share/arm_description_pkg/urdf/robotic_arm.urdf
+-- Up-to-date symlink: /workspace/install/arm_description_pkg/share/ament_index/resource_index/package_run_dependencies/arm_description_pkg
+-- Up-to-date symlink: /workspace/install/arm_description_pkg/share/ament_index/resource_index/parent_prefix_path/arm_description_pkg
+-- Up-to-date symlink: /workspace/install/arm_description_pkg/share/arm_description_pkg/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /workspace/install/arm_description_pkg/share/arm_description_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /workspace/install/arm_description_pkg/share/arm_description_pkg/environment/path.sh
+-- Up-to-date symlink: /workspace/install/arm_description_pkg/share/arm_description_pkg/environment/path.dsv
+-- Up-to-date symlink: /workspace/install/arm_description_pkg/share/arm_description_pkg/local_setup.bash
+-- Up-to-date symlink: /workspace/install/arm_description_pkg/share/arm_description_pkg/local_setup.sh
+-- Up-to-date symlink: /workspace/install/arm_description_pkg/share/arm_description_pkg/local_setup.zsh
+-- Up-to-date symlink: /workspace/install/arm_description_pkg/share/arm_description_pkg/local_setup.dsv
+-- Symlinking: /workspace/install/arm_description_pkg/share/arm_description_pkg/package.dsv
+-- Up-to-date symlink: /workspace/install/arm_description_pkg/share/ament_index/resource_index/packages/arm_description_pkg
+-- Up-to-date symlink: /workspace/install/arm_description_pkg/share/arm_description_pkg/cmake/arm_description_pkgConfig.cmake
+-- Up-to-date symlink: /workspace/install/arm_description_pkg/share/arm_description_pkg/cmake/arm_description_pkgConfig-version.cmake
+-- Up-to-date symlink: /workspace/install/arm_description_pkg/share/arm_description_pkg/package.xml

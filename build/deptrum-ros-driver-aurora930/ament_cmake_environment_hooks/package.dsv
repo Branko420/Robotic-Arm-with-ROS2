@@ -1,0 +1,4 @@
+source;share/deptrum-ros-driver-aurora930/local_setup.bash
+source;share/deptrum-ros-driver-aurora930/local_setup.dsv
+source;share/deptrum-ros-driver-aurora930/local_setup.sh
+source;share/deptrum-ros-driver-aurora930/local_setup.zsh

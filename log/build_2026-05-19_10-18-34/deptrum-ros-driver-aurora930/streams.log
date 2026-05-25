@@ -1,0 +1,11 @@
+[0.456s] Invoking command in '/workspace/build/deptrum-ros-driver-aurora930': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/servo_pkg:/opt/ros/jazzy /usr/bin/cmake --build /workspace/build/deptrum-ros-driver-aurora930 -- -j4 -l4
+[1.620s] [ 11%] [32mBuilding CXX object CMakeFiles/aurora930_node.dir/src/ros2_node.cc.o[0m
+[7.373s] In file included from [01m[K/workspace/src/deptrum-ros-driver/src/ros2_node.cc:6[m[K:
+[7.378s] [01m[K/workspace/src/deptrum-ros-driver/include/deptrum_ros_driver/ros2_device.h:12:10:[m[K [01;31m[Kfatal error: [m[Kcv_bridge/cv_bridge.h: No such file or directory
+[7.378s]    12 | #include [01;31m[K<cv_bridge/cv_bridge.h>[m[K
+[7.379s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.379s] compilation terminated.
+[7.416s] gmake[2]: *** [CMakeFiles/aurora930_node.dir/build.make:76: CMakeFiles/aurora930_node.dir/src/ros2_node.cc.o] Error 1
+[7.416s] gmake[1]: *** [CMakeFiles/Makefile2:156: CMakeFiles/aurora930_node.dir/all] Error 2
+[7.417s] gmake: *** [Makefile:146: all] Error 2
+[7.440s] Invoked command in '/workspace/build/deptrum-ros-driver-aurora930' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/servo_pkg:/opt/ros/jazzy /usr/bin/cmake --build /workspace/build/deptrum-ros-driver-aurora930 -- -j4 -l4

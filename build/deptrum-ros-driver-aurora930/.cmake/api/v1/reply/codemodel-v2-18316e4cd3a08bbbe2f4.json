@@ -1,0 +1,116 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-fc077a74a1c94997de18.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						4
+					]
+				},
+				{
+					"build" : "subscribe_node",
+					"jsonFile" : "directory-subscribe_node-b3fb7966ecc20ba3deaf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "subscribe_node",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "deptrum-ros-driver-aurora930",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "aurora930_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aurora930_node-89af7f34e7c207f9e73d.json",
+					"name" : "aurora930_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "deptrum-ros-driver-aurora930_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-deptrum-ros-driver-aurora930_uninstall-fb7f63099908e7835a71.json",
+					"name" : "deptrum-ros-driver-aurora930_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "sub_node::@01105ceee6adb66613a3",
+					"jsonFile" : "target-sub_node-be71d57eee0389eab50a.json",
+					"name" : "sub_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "sub_node_ci::@01105ceee6adb66613a3",
+					"jsonFile" : "target-sub_node_ci-90064ce2fe4a6e0b0f43.json",
+					"name" : "sub_node_ci",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-a707e1824406cda0f396.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/workspace/build/deptrum-ros-driver-aurora930",
+		"source" : "/workspace/src/deptrum-ros-driver"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

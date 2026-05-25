@@ -1,0 +1,92 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (1.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /workspace/build/pymoveit2
+Built target ament_cmake_python_symlink_pymoveit2
+running egg_info
+creating pymoveit2.egg-info
+writing pymoveit2.egg-info/PKG-INFO
+writing dependency_links to pymoveit2.egg-info/dependency_links.txt
+writing top-level names to pymoveit2.egg-info/top_level.txt
+writing manifest file 'pymoveit2.egg-info/SOURCES.txt'
+reading manifest file 'pymoveit2.egg-info/SOURCES.txt'
+writing manifest file 'pymoveit2.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_pymoveit2_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /workspace/install/pymoveit2/share/pymoveit2/environment/pythonpath.sh
+-- Symlinking: /workspace/install/pymoveit2/share/pymoveit2/environment/pythonpath.dsv
+-- Symlinking: /workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2-4.2.0-py3.12.egg-info/PKG-INFO
+-- Symlinking: /workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2-4.2.0-py3.12.egg-info/SOURCES.txt
+-- Symlinking: /workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2-4.2.0-py3.12.egg-info/dependency_links.txt
+-- Symlinking: /workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2-4.2.0-py3.12.egg-info/top_level.txt
+-- Symlinking: /workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/__init__.py
+-- Symlinking: /workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/gripper_command.py
+-- Symlinking: /workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/gripper_interface.py
+-- Symlinking: /workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/moveit2.py
+-- Symlinking: /workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/moveit2_gripper.py
+-- Symlinking: /workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/moveit2_servo.py
+-- Symlinking: /workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/robots/__init__.py
+-- Symlinking: /workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/robots/crane_x7.py
+-- Symlinking: /workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/robots/kinova.py
+-- Symlinking: /workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/robots/lbr.py
+-- Symlinking: /workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/robots/panda.py
+-- Symlinking: /workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/robots/phantomx_pincher.py
+-- Symlinking: /workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/robots/ur.py
+-- Symlinking: /workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/utils.py
+-- Symlinking: /workspace/install/pymoveit2/lib/pymoveit2/ex_allow_collisions.py
+-- Symlinking: /workspace/install/pymoveit2/lib/pymoveit2/ex_clear_planning_scene.py
+-- Symlinking: /workspace/install/pymoveit2/lib/pymoveit2/ex_collision_mesh.py
+-- Symlinking: /workspace/install/pymoveit2/lib/pymoveit2/ex_collision_primitive.py
+-- Symlinking: /workspace/install/pymoveit2/lib/pymoveit2/ex_fk.py
+-- Symlinking: /workspace/install/pymoveit2/lib/pymoveit2/ex_gripper.py
+-- Symlinking: /workspace/install/pymoveit2/lib/pymoveit2/ex_ik.py
+-- Symlinking: /workspace/install/pymoveit2/lib/pymoveit2/ex_joint_goal.py
+-- Symlinking: /workspace/install/pymoveit2/lib/pymoveit2/ex_orientation_path_constraint.py
+-- Symlinking: /workspace/install/pymoveit2/lib/pymoveit2/ex_pose_goal.py
+-- Symlinking: /workspace/install/pymoveit2/lib/pymoveit2/ex_servo.py
+-- Symlinking: /workspace/install/pymoveit2/share/ament_index/resource_index/package_run_dependencies/pymoveit2
+-- Symlinking: /workspace/install/pymoveit2/share/ament_index/resource_index/parent_prefix_path/pymoveit2
+-- Symlinking: /workspace/install/pymoveit2/share/pymoveit2/environment/ament_prefix_path.sh
+-- Symlinking: /workspace/install/pymoveit2/share/pymoveit2/environment/ament_prefix_path.dsv
+-- Symlinking: /workspace/install/pymoveit2/share/pymoveit2/environment/path.sh
+-- Symlinking: /workspace/install/pymoveit2/share/pymoveit2/environment/path.dsv
+-- Symlinking: /workspace/install/pymoveit2/share/pymoveit2/local_setup.bash
+-- Symlinking: /workspace/install/pymoveit2/share/pymoveit2/local_setup.sh
+-- Symlinking: /workspace/install/pymoveit2/share/pymoveit2/local_setup.zsh
+-- Symlinking: /workspace/install/pymoveit2/share/pymoveit2/local_setup.dsv
+-- Symlinking: /workspace/install/pymoveit2/share/pymoveit2/package.dsv
+-- Symlinking: /workspace/install/pymoveit2/share/ament_index/resource_index/packages/pymoveit2
+-- Symlinking: /workspace/install/pymoveit2/share/pymoveit2/cmake/pymoveit2Config.cmake
+-- Symlinking: /workspace/install/pymoveit2/share/pymoveit2/cmake/pymoveit2Config-version.cmake
+-- Symlinking: /workspace/install/pymoveit2/share/pymoveit2/package.xml
+Listing '/workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2'...
+Compiling '/workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/__init__.py'...
+Compiling '/workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/gripper_command.py'...
+Compiling '/workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/gripper_interface.py'...
+Compiling '/workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/moveit2.py'...
+Compiling '/workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/moveit2_gripper.py'...
+Compiling '/workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/moveit2_servo.py'...
+Listing '/workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/robots'...
+Compiling '/workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/robots/__init__.py'...
+Compiling '/workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/robots/crane_x7.py'...
+Compiling '/workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/robots/kinova.py'...
+Compiling '/workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/robots/lbr.py'...
+Compiling '/workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/robots/panda.py'...
+Compiling '/workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/robots/phantomx_pincher.py'...
+Compiling '/workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/robots/ur.py'...
+Compiling '/workspace/install/pymoveit2/lib/python3.12/site-packages/pymoveit2/utils.py'...

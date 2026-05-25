@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/workspace/build/deptrum-ros-driver-aurora930/aurora930_node" "/workspace/build/deptrum-ros-driver-aurora930/subscribe_node/sub_node" "TARGETS" "aurora930_node" "sub_node" "DESTINATION" "lib/deptrum-ros-driver-aurora930")

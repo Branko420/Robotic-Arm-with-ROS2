@@ -1,0 +1,20 @@
+[19.233s] Invoking command in '/workspace/build/servo_pkg': PYTHONPATH=/workspace/build/servo_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/servo_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/build/servo_pkg/build --no-deps symlink_data
+[23.342s] running develop
+[26.076s] running egg_info
+[26.317s] writing servo_pkg.egg-info/PKG-INFO
+[26.318s] writing dependency_links to servo_pkg.egg-info/dependency_links.txt
+[26.326s] writing entry points to servo_pkg.egg-info/entry_points.txt
+[26.330s] writing requirements to servo_pkg.egg-info/requires.txt
+[26.331s] writing top-level names to servo_pkg.egg-info/top_level.txt
+[26.867s] reading manifest file 'servo_pkg.egg-info/SOURCES.txt'
+[26.878s] writing manifest file 'servo_pkg.egg-info/SOURCES.txt'
+[27.164s] running build_ext
+[27.167s] Creating /workspace/install/servo_pkg/lib/python3.12/site-packages/servo-pkg.egg-link (link to .)
+[27.175s] Installing laptop_brain script to /workspace/install/servo_pkg/lib/servo_pkg
+[27.177s] Installing laptop_test script to /workspace/install/servo_pkg/lib/servo_pkg
+[27.181s] Installing servo_node script to /workspace/install/servo_pkg/lib/servo_pkg
+[27.182s] Installing virtual_servo_node script to /workspace/install/servo_pkg/lib/servo_pkg
+[27.186s] 
+[27.187s] Installed /workspace/build/servo_pkg
+[27.191s] running symlink_data
+[27.407s] Invoked command in '/workspace/build/servo_pkg' returned '0': PYTHONPATH=/workspace/build/servo_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/servo_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/build/servo_pkg/build --no-deps symlink_data

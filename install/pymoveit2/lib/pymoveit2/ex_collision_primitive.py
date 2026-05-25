@@ -1,0 +1,1 @@
+/workspace/src/pymoveit2/examples/ex_collision_primitive.py

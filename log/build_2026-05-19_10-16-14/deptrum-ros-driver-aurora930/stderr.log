@@ -1,0 +1,16 @@
+[0mCMake Deprecation Warning at subscribe_node/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+[0m
+In file included from [01m[K/workspace/src/deptrum-ros-driver/src/ros2_node.cc:6[m[K:
+[01m[K/workspace/src/deptrum-ros-driver/include/deptrum_ros_driver/ros2_device.h:12:10:[m[K [01;31m[Kfatal error: [m[Kcv_bridge/cv_bridge.h: No such file or directory
+   12 | #include [01;31m[K<cv_bridge/cv_bridge.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/aurora930_node.dir/build.make:76: CMakeFiles/aurora930_node.dir/src/ros2_node.cc.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:156: CMakeFiles/aurora930_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

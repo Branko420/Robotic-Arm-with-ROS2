@@ -1,0 +1,24 @@
+[7.304s] Invoking command in '/workspace/src/servo_pkg': PYTHONPATH=/workspace/build/servo_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/servo_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/servo_pkg build --build-base /workspace/build/servo_pkg/build install --record /workspace/build/servo_pkg/install.log --single-version-externally-managed install_data
+[9.654s] running egg_info
+[9.778s] writing ../../build/servo_pkg/servo_pkg.egg-info/PKG-INFO
+[9.779s] writing dependency_links to ../../build/servo_pkg/servo_pkg.egg-info/dependency_links.txt
+[9.780s] writing entry points to ../../build/servo_pkg/servo_pkg.egg-info/entry_points.txt
+[9.781s] writing requirements to ../../build/servo_pkg/servo_pkg.egg-info/requires.txt
+[9.781s] writing top-level names to ../../build/servo_pkg/servo_pkg.egg-info/top_level.txt
+[10.049s] reading manifest file '../../build/servo_pkg/servo_pkg.egg-info/SOURCES.txt'
+[10.053s] writing manifest file '../../build/servo_pkg/servo_pkg.egg-info/SOURCES.txt'
+[10.053s] running build
+[10.054s] running build_py
+[10.056s] running install
+[10.087s] running install_lib
+[10.234s] running install_data
+[10.235s] running install_egg_info
+[10.372s] removing '/workspace/install/servo_pkg/lib/python3.12/site-packages/servo_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[10.376s] Copying ../../build/servo_pkg/servo_pkg.egg-info to /workspace/install/servo_pkg/lib/python3.12/site-packages/servo_pkg-0.0.0-py3.12.egg-info
+[10.382s] running install_scripts
+[11.350s] Installing laptop_brain script to /workspace/install/servo_pkg/lib/servo_pkg
+[11.351s] Installing laptop_test script to /workspace/install/servo_pkg/lib/servo_pkg
+[11.351s] Installing servo_node script to /workspace/install/servo_pkg/lib/servo_pkg
+[11.352s] Installing virtual_servo_node script to /workspace/install/servo_pkg/lib/servo_pkg
+[11.354s] writing list of installed files to '/workspace/build/servo_pkg/install.log'
+[11.502s] Invoked command in '/workspace/src/servo_pkg' returned '0': PYTHONPATH=/workspace/build/servo_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/servo_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/servo_pkg build --build-base /workspace/build/servo_pkg/build install --record /workspace/build/servo_pkg/install.log --single-version-externally-managed install_data
