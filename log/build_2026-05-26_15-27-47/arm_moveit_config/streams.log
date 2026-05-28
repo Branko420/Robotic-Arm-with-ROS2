@@ -1,0 +1,40 @@
+[0.104s] Invoking command in '/workspace/build/arm_moveit_config': CMAKE_PREFIX_PATH=/workspace/install/arm_description_pkg:/workspace/install/pymoveit2:/workspace/install/deptrum-ros-driver-aurora930:/workspace/install/arm_moveit_config:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/workspace/install/servo_pkg:/opt/ros/jazzy /usr/bin/cmake --build /workspace/build/arm_moveit_config -- -j4 -l4
+[0.806s] Invoked command in '/workspace/build/arm_moveit_config' returned '0': CMAKE_PREFIX_PATH=/workspace/install/arm_description_pkg:/workspace/install/pymoveit2:/workspace/install/deptrum-ros-driver-aurora930:/workspace/install/arm_moveit_config:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/workspace/install/servo_pkg:/opt/ros/jazzy /usr/bin/cmake --build /workspace/build/arm_moveit_config -- -j4 -l4
+[0.830s] Invoking command in '/workspace/build/arm_moveit_config': CMAKE_PREFIX_PATH=/workspace/install/arm_description_pkg:/workspace/install/pymoveit2:/workspace/install/deptrum-ros-driver-aurora930:/workspace/install/arm_moveit_config:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/workspace/install/servo_pkg:/opt/ros/jazzy /usr/bin/cmake --install /workspace/build/arm_moveit_config
+[1.055s] -- Install configuration: ""
+[1.061s] -- Execute custom install script
+[1.068s] -- Up-to-date symlink: /workspace/install/arm_moveit_config/share/ament_index/resource_index/package_run_dependencies/arm_moveit_config
+[1.076s] -- Up-to-date symlink: /workspace/install/arm_moveit_config/share/ament_index/resource_index/parent_prefix_path/arm_moveit_config
+[1.082s] -- Up-to-date symlink: /workspace/install/arm_moveit_config/share/arm_moveit_config/environment/ament_prefix_path.sh
+[1.086s] -- Up-to-date symlink: /workspace/install/arm_moveit_config/share/arm_moveit_config/environment/ament_prefix_path.dsv
+[1.087s] -- Up-to-date symlink: /workspace/install/arm_moveit_config/share/arm_moveit_config/environment/path.sh
+[1.099s] -- Up-to-date symlink: /workspace/install/arm_moveit_config/share/arm_moveit_config/environment/path.dsv
+[1.103s] -- Up-to-date symlink: /workspace/install/arm_moveit_config/share/arm_moveit_config/local_setup.bash
+[1.114s] -- Up-to-date symlink: /workspace/install/arm_moveit_config/share/arm_moveit_config/local_setup.sh
+[1.115s] -- Up-to-date symlink: /workspace/install/arm_moveit_config/share/arm_moveit_config/local_setup.zsh
+[1.123s] -- Up-to-date symlink: /workspace/install/arm_moveit_config/share/arm_moveit_config/local_setup.dsv
+[1.129s] -- Symlinking: /workspace/install/arm_moveit_config/share/arm_moveit_config/package.dsv
+[1.256s] -- Up-to-date symlink: /workspace/install/arm_moveit_config/share/ament_index/resource_index/packages/arm_moveit_config
+[1.259s] -- Up-to-date symlink: /workspace/install/arm_moveit_config/share/arm_moveit_config/cmake/arm_moveit_configConfig.cmake
+[1.265s] -- Up-to-date symlink: /workspace/install/arm_moveit_config/share/arm_moveit_config/cmake/arm_moveit_configConfig-version.cmake
+[1.278s] -- Up-to-date symlink: /workspace/install/arm_moveit_config/share/arm_moveit_config/package.xml
+[1.286s] -- Up-to-date symlink: /workspace/install/arm_moveit_config/share/arm_moveit_config/launch/demo.launch.py
+[1.305s] -- Up-to-date symlink: /workspace/install/arm_moveit_config/share/arm_moveit_config/launch/move_group.launch.py
+[1.319s] -- Up-to-date symlink: /workspace/install/arm_moveit_config/share/arm_moveit_config/launch/moveit_rviz.launch.py
+[1.320s] -- Up-to-date symlink: /workspace/install/arm_moveit_config/share/arm_moveit_config/launch/rsp.launch.py
+[1.344s] -- Up-to-date symlink: /workspace/install/arm_moveit_config/share/arm_moveit_config/launch/setup_assistant.launch.py
+[1.345s] -- Up-to-date symlink: /workspace/install/arm_moveit_config/share/arm_moveit_config/launch/spawn_controllers.launch.py
+[1.345s] -- Up-to-date symlink: /workspace/install/arm_moveit_config/share/arm_moveit_config/launch/static_virtual_joint_tfs.launch.py
+[1.362s] -- Up-to-date symlink: /workspace/install/arm_moveit_config/share/arm_moveit_config/launch/warehouse_db.launch.py
+[1.381s] -- Up-to-date symlink: /workspace/install/arm_moveit_config/share/arm_moveit_config/config/custom_6dof_arm_final.ros2_control.xacro
+[1.389s] -- Up-to-date symlink: /workspace/install/arm_moveit_config/share/arm_moveit_config/config/custom_6dof_arm_final.srdf
+[1.401s] -- Up-to-date symlink: /workspace/install/arm_moveit_config/share/arm_moveit_config/config/custom_6dof_arm_final.urdf.xacro
+[1.402s] -- Up-to-date symlink: /workspace/install/arm_moveit_config/share/arm_moveit_config/config/initial_positions.yaml
+[1.414s] -- Up-to-date symlink: /workspace/install/arm_moveit_config/share/arm_moveit_config/config/joint_limits.yaml
+[1.420s] -- Up-to-date symlink: /workspace/install/arm_moveit_config/share/arm_moveit_config/config/kinematics.yaml
+[1.428s] -- Up-to-date symlink: /workspace/install/arm_moveit_config/share/arm_moveit_config/config/moveit.rviz
+[1.429s] -- Up-to-date symlink: /workspace/install/arm_moveit_config/share/arm_moveit_config/config/moveit_controllers.yaml
+[1.440s] -- Up-to-date symlink: /workspace/install/arm_moveit_config/share/arm_moveit_config/config/pilz_cartesian_limits.yaml
+[1.446s] -- Up-to-date symlink: /workspace/install/arm_moveit_config/share/arm_moveit_config/config/ros2_controllers.yaml
+[1.451s] -- Up-to-date symlink: /workspace/install/arm_moveit_config/share/arm_moveit_config/.setup_assistant
+[1.485s] Invoked command in '/workspace/build/arm_moveit_config' returned '0': CMAKE_PREFIX_PATH=/workspace/install/arm_description_pkg:/workspace/install/pymoveit2:/workspace/install/deptrum-ros-driver-aurora930:/workspace/install/arm_moveit_config:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/workspace/install/servo_pkg:/opt/ros/jazzy /usr/bin/cmake --install /workspace/build/arm_moveit_config
