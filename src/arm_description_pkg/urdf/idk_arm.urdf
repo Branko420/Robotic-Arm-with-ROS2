@@ -19,30 +19,30 @@
 
   <!--
     Measured base height:
-    18.8mm + 108mm = 126.8mm = 0.1268m
+    table to top of base = 101mm = 0.1010m
   -->
   <link name="base_link">
     <visual>
-      <origin xyz="0 0 0.0634"/>
+      <origin xyz="0 0 0.0505"/>
       <geometry>
-        <cylinder radius="0.06" length="0.1268"/>
+        <cylinder radius="0.06" length="0.1010"/>
       </geometry>
       <material name="black"/>
     </visual>
 
     <collision>
-      <origin xyz="0 0 0.0634"/>
+      <origin xyz="0 0 0.0505"/>
       <geometry>
-        <cylinder radius="0.06" length="0.1268"/>
+        <cylinder radius="0.06" length="0.1010"/>
       </geometry>
     </collision>
   </link>
 
-  <!-- Group: arm_group -->
+  <!-- Joint 6: Base yaw -->
   <joint name="joint_6_base" type="revolute">
     <parent link="base_link"/>
     <child link="link_shoulder"/>
-    <origin xyz="0 0 0.1268"/>
+    <origin xyz="0 0 0.1010"/>
     <axis xyz="0 0 1"/>
     <limit lower="-1.5708" upper="1.5708" effort="10.0" velocity="1.0"/>
   </joint>
@@ -68,6 +68,7 @@
     </collision>
   </link>
 
+  <!-- Joint 5: Shoulder pitch -->
   <joint name="joint_5_shoulder" type="revolute">
     <parent link="link_shoulder"/>
     <child link="link_bicep"/>
@@ -78,29 +79,30 @@
 
   <!--
     Measured shoulder horn center to elbow horn center:
-    105.3mm = 0.1053m
+    104.1mm = 0.1041m
   -->
   <link name="link_bicep">
     <visual>
-      <origin xyz="0 0 0.05265"/>
+      <origin xyz="0 0 0.05205"/>
       <geometry>
-        <box size="0.03 0.04 0.1053"/>
+        <box size="0.03 0.04 0.1041"/>
       </geometry>
       <material name="orange"/>
     </visual>
 
     <collision>
-      <origin xyz="0 0 0.05265"/>
+      <origin xyz="0 0 0.05205"/>
       <geometry>
-        <box size="0.03 0.04 0.1053"/>
+        <box size="0.03 0.04 0.1041"/>
       </geometry>
     </collision>
   </link>
 
+  <!-- Joint 4: Elbow pitch -->
   <joint name="joint_4_elbow" type="revolute">
     <parent link="link_bicep"/>
     <child link="link_forearm"/>
-    <origin xyz="0 0 0.1053"/>
+    <origin xyz="0 0 0.1041"/>
     <axis xyz="0 -1 0"/>
     <limit lower="-1.3963" upper="1.3963" effort="10.0" velocity="1.0"/>
   </joint>
@@ -126,6 +128,7 @@
     </collision>
   </link>
 
+  <!-- Joint 3: Wrist pitch -->
   <joint name="joint_3_wrist_pitch" type="revolute">
     <parent link="link_forearm"/>
     <child link="link_wrist_roll"/>
@@ -136,29 +139,30 @@
 
   <!--
     Measured wrist horn center to wrist-rotation horn top:
-    74.7mm = 0.0747m
+    73.2mm = 0.0732m
   -->
   <link name="link_wrist_roll">
     <visual>
-      <origin xyz="0 0 0.03735"/>
+      <origin xyz="0 0 0.0366"/>
       <geometry>
-        <cylinder radius="0.02" length="0.0747"/>
+        <cylinder radius="0.02" length="0.0732"/>
       </geometry>
       <material name="orange"/>
     </visual>
 
     <collision>
-      <origin xyz="0 0 0.03735"/>
+      <origin xyz="0 0 0.0366"/>
       <geometry>
-        <cylinder radius="0.02" length="0.0747"/>
+        <cylinder radius="0.02" length="0.0732"/>
       </geometry>
     </collision>
   </link>
 
+  <!-- Joint 2: Wrist roll / wrist rotation -->
   <joint name="joint_2_wrist_roll" type="revolute">
     <parent link="link_wrist_roll"/>
     <child link="link_gripper_base"/>
-    <origin xyz="0 0 0.0747"/>
+    <origin xyz="0 0 0.0732"/>
     <axis xyz="0 0 1"/>
     <limit lower="-1.3963" upper="1.3963" effort="10.0" velocity="1.0"/>
   </joint>
@@ -184,7 +188,7 @@
     </collision>
   </link>
 
-  <!-- Simplified Gripper Joint for Setup Assistant -->
+  <!-- Joint 1: Simplified gripper joint -->
   <joint name="joint_1_gripper" type="revolute">
     <parent link="link_gripper_base"/>
     <child link="link_gripper_left_finger"/>
@@ -218,12 +222,17 @@
       at 130 degrees = 109.2mm = 0.1092m
 
     Current value uses 90 degree measurement.
-    If you want the 130 degree measurement, change z from 0.1047 to 0.1092.
+    If you want 130 degree measurement, change z from 0.1047 to 0.1092.
+
+    Tool/gripper offset:
+      13.2mm = 0.0132m.
+      You said the offset is to the left in RViz, so this uses +Y.
+      If it appears on the wrong side, change +0.0132 to -0.0132.
   -->
   <joint name="tool0_fixed_joint" type="fixed">
     <parent link="link_gripper_base"/>
     <child link="tool0"/>
-    <origin xyz="0 0 0.1047" rpy="0 0 0"/>
+    <origin xyz="0 0.0132 0.1047" rpy="0 0 0"/>
   </joint>
 
   <link name="tool0">

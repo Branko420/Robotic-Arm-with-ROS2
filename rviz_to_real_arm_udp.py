@@ -90,10 +90,10 @@ class RVizToRealArmUDP(Node):
         # If a real servo center is wrong, adjust offset.
         # ---------------------------------------------------------
         self.servo_calibration = {
-            "base": {"scale": 1.0, "offset": 90.0},
-    "shoulder": {"scale": 1.0, "offset": 91.6},
-    "elbow": {"scale": 1.0, "offset": 90.4},
-    "wrist": {"scale": 1.0, "offset": 95.1},
+            "base": {"scale": 1.253, "offset": 90.0},
+    "shoulder": {"scale": 1.1, "offset": 91.6},
+    "elbow": {"scale": 1.378, "offset": 90.4},
+    "wrist": {"scale": 1.098, "offset": 95.1},
     "wrist_rotation": {"scale": 1.0, "offset": 90.0},
     "gripper": {"scale": 1.0, "offset": 80.0},
         }

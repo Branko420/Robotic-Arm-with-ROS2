@@ -71,6 +71,18 @@ class GreenCubeFinder(Node):
         self.declare_parameter("min_marker_size", 0.025)
 
         # ---------------------------------------------------------
+        # Center calculation
+        # ---------------------------------------------------------
+        # Use percentile bbox center instead of median.
+        # This avoids choosing only the closest/most visible surface.
+        self.declare_parameter("bbox_low_percentile", 5.0)
+        self.declare_parameter("bbox_high_percentile", 95.0)
+
+        # Optional: if true, force marker size to at least min_marker_size,
+        # but keep the center based on actual 5-95 bbox.
+        self.declare_parameter("use_bbox_center", True)
+
+        # ---------------------------------------------------------
         # Read params
         # ---------------------------------------------------------
         self.colorized_cloud_topic = self.get_parameter("colorized_cloud_topic").value
@@ -100,6 +112,14 @@ class GreenCubeFinder(Node):
         self.min_cube_size = float(self.get_parameter("min_cube_size").value)
         self.max_cube_size = float(self.get_parameter("max_cube_size").value)
         self.min_marker_size = float(self.get_parameter("min_marker_size").value)
+
+        self.bbox_low_percentile = float(
+            self.get_parameter("bbox_low_percentile").value
+        )
+        self.bbox_high_percentile = float(
+            self.get_parameter("bbox_high_percentile").value
+        )
+        self.use_bbox_center = bool(self.get_parameter("use_bbox_center").value)
 
         # ---------------------------------------------------------
         # ROS setup
@@ -136,6 +156,10 @@ class GreenCubeFinder(Node):
         self.get_logger().info(f"Input cloud: {self.colorized_cloud_topic}")
         self.get_logger().info(f"Marker topic: {self.marker_topic}")
         self.get_logger().info(f"Position topic: {self.position_topic}")
+        self.get_logger().info(
+            f"Center method: bbox percentiles "
+            f"{self.bbox_low_percentile:.1f}-{self.bbox_high_percentile:.1f}"
+        )
 
     # -------------------------------------------------------------------------
     # Logging helper
@@ -406,29 +430,69 @@ class GreenCubeFinder(Node):
         ys = points[:, 1]
         zs = points[:, 2]
 
-        x = float(np.median(xs))
-        y = float(np.median(ys))
-        z = float(np.median(zs))
+        low = self.bbox_low_percentile
+        high = self.bbox_high_percentile
 
-        width = float(np.percentile(xs, 95) - np.percentile(xs, 5))
-        height = float(np.percentile(ys, 95) - np.percentile(ys, 5))
-        depth = float(np.percentile(zs, 95) - np.percentile(zs, 5))
+        # Robust bounding box.
+        # This is better than min/max because one bad depth point will not destroy it.
+        x_min = float(np.percentile(xs, low))
+        x_max = float(np.percentile(xs, high))
 
-        width = max(width, self.min_marker_size)
-        height = max(height, self.min_marker_size)
-        depth = max(depth, self.min_marker_size)
+        y_min = float(np.percentile(ys, low))
+        y_max = float(np.percentile(ys, high))
+
+        z_min = float(np.percentile(zs, low))
+        z_max = float(np.percentile(zs, high))
+
+        width_raw = x_max - x_min
+        height_raw = y_max - y_min
+        depth_raw = z_max - z_min
+
+        # Center of the detected cube bounding box.
+        # This avoids using only the closest/most visible surface.
+        if self.use_bbox_center:
+            x = (x_min + x_max) / 2.0
+            y = (y_min + y_max) / 2.0
+            z = (z_min + z_max) / 2.0
+            center_method = f"bbox_percentile_{low:g}_{high:g}"
+        else:
+            x = float(np.median(xs))
+            y = float(np.median(ys))
+            z = float(np.median(zs))
+            center_method = "median"
+
+        width = max(width_raw, self.min_marker_size)
+        height = max(height_raw, self.min_marker_size)
+        depth = max(depth_raw, self.min_marker_size)
 
         return {
             "name": "green cube",
             "category": "cube",
             "colors": ["green"],
             "frame": self.frame_id,
+
+            # Center of the whole detected cube bounding box
             "x": x,
             "y": y,
             "z": z,
+
             "width": width,
             "height": height,
             "depth": depth,
+
+            # Debug values
+            "x_min": x_min,
+            "x_max": x_max,
+            "y_min": y_min,
+            "y_max": y_max,
+            "z_min": z_min,
+            "z_max": z_max,
+
+            "width_raw": width_raw,
+            "height_raw": height_raw,
+            "depth_raw": depth_raw,
+
+            "center_method": center_method,
             "points": int(points.shape[0]),
             "timestamp": time.time(),
         }
@@ -589,6 +653,8 @@ class GreenCubeFinder(Node):
             self.get_logger().info(
                 f"🟢 Green cube at "
                 f"x={cube['x']:.3f}, y={cube['y']:.3f}, z={cube['z']:.3f}, "
+                f"size=({cube['width']:.3f}, {cube['height']:.3f}, {cube['depth']:.3f}), "
+                f"method={cube['center_method']}, "
                 f"points={cube['points']}"
             )
 
