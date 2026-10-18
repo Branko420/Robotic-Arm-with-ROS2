@@ -1,0 +1,67 @@
+[INFO] [1781779782.953639774] [ai_workspace_classifier]: ✅ ai_workspace_classifier started
+[INFO] [1781779782.991408854] [ai_workspace_classifier]: AI bbox + depth clustering -> workspace motion points
+[INFO] [1781779783.042393551] [ai_workspace_classifier]: RGB: /aurora/rgb/image_raw
+[INFO] [1781779783.067419644] [ai_workspace_classifier]: DEPTH: /aurora/depth/image_raw
+[INFO] [1781779783.076083672] [ai_workspace_classifier]: CAMERA_INFO: /aurora/rgb/camera_info
+[INFO] [1781779783.081634848] [ai_workspace_classifier]: RViz object markers: /digital_twin/motion_point_markers
+[INFO] [1781779783.087417952] [ai_workspace_classifier]: Do not run object_geometry_estimator with this setup.
+[WARN] [1781779791.367463036] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781779796.911777559] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781779800.244681850] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781779804.015074867] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781779808.206210635] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781779812.475856461] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781779816.052526992] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781779821.789196506] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781779825.607637372] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781779828.698204301] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781779833.180277931] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781779836.196816510] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781779838.988115420] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781779842.194563000] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[INFO] [1781779845.427319164] [ai_workspace_classifier]: ✅ workspace points saved: cube_0_center
+[WARN] [1781779850.673929807] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781779853.831357297] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781779857.658529291] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781779861.268154131] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781779864.551931201] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781779867.920733566] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781779872.905504513] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781779876.424983491] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781779881.709783948] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781779885.696448750] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781779890.092437144] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781779894.550173401] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781779898.265667408] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781779903.477656908] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781779908.028240940] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781779911.702559433] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781779916.277121534] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781779919.479888191] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781779922.377135923] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781779925.948437720] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781779930.546099231] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781779933.683882078] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781779937.711387138] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781779940.997787062] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781779945.700378240] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781779949.038838447] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781779952.112460339] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781779955.132270063] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781779958.505284545] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781779964.166019669] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781779969.157844946] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781779973.009313207] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781779976.855145802] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781779980.258057988] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781779986.088948705] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781779997.823163713] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781780009.986291548] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781780017.127892860] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781780022.089280579] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781780027.523614351] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781780030.938305813] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781780034.968778823] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781780038.631735973] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[WARN] [1781780042.582034937] [ai_workspace_classifier]: NO_VALID_3D_OBJECTS; keeping last valid workspace points
+[INFO] [1781780046.687944275] [ai_workspace_classifier]: ✅ workspace points saved: cube_0_center

@@ -1,0 +1,5 @@
+[console_scripts]
+colorized_pointcloud = robot_system.visualization.colorized_pointcloud:main
+planning_agent = robot_system.agents.planning_node:main
+realtime_agent = robot_system.realtime.runtime:main
+workspace_scan_agent = robot_system.agents.workspace_scan_node:main

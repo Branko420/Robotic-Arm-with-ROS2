@@ -1,0 +1,8 @@
+[0.000000] (-) TimerEvent: {}
+[0.000837] (-) JobUnselected: {'identifier': 'arm_description_pkg'}
+[0.001058] (-) JobUnselected: {'identifier': 'arm_moveit_config'}
+[0.001209] (-) JobUnselected: {'identifier': 'deptrum-ros-driver-aurora930'}
+[0.001331] (-) JobUnselected: {'identifier': 'pymoveit2'}
+[0.001449] (-) JobUnselected: {'identifier': 'robot_system'}
+[0.001558] (-) JobUnselected: {'identifier': 'servo_pkg'}
+[0.004749] (-) EventReactorShutdown: {}

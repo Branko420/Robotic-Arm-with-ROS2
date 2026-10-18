@@ -1,0 +1,282 @@
+<?xml version="1.0"?>
+<robot name="custom_6dof_arm_final">
+
+  <material name="black">
+    <color rgba="0.15 0.15 0.15 1.0"/>
+  </material>
+
+  <material name="silver">
+    <color rgba="0.8 0.8 0.8 1.0"/>
+  </material>
+
+  <material name="orange">
+    <color rgba="1.0 0.5 0.0 1.0"/>
+  </material>
+
+  <material name="green">
+    <color rgba="0.0 1.0 0.0 1.0"/>
+  </material>
+
+  <!--
+    Measured base height:
+    table to top of base = 101mm = 0.1010m
+  -->
+  <link name="base_link">
+    <visual>
+      <origin xyz="0 0 0.0505"/>
+      <geometry>
+        <cylinder radius="0.06" length="0.1010"/>
+      </geometry>
+      <material name="black"/>
+    </visual>
+
+    <collision>
+      <origin xyz="0 0 0.0505"/>
+      <geometry>
+        <cylinder radius="0.06" length="0.1010"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Joint 7: Base yaw -->
+  <joint name="joint_7_base" type="revolute">
+    <parent link="base_link"/>
+    <child link="link_shoulder"/>
+    <origin xyz="0 0 0.1010"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-1.5708" upper="1.5708" effort="10.0" velocity="1.0"/>
+  </joint>
+
+  <!--
+    Measured base top to shoulder horn center:
+    15.2mm = 0.0152m
+  -->
+  <link name="link_shoulder">
+    <visual>
+      <origin xyz="0 0 0.0076"/>
+      <geometry>
+        <cylinder radius="0.04" length="0.0152"/>
+      </geometry>
+      <material name="silver"/>
+    </visual>
+
+    <collision>
+      <origin xyz="0 0 0.0076"/>
+      <geometry>
+        <cylinder radius="0.04" length="0.0152"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Joint 6: Shoulder pitch -->
+  <joint name="joint_6_shoulder" type="revolute">
+    <parent link="link_shoulder"/>
+    <child link="link_bicep"/>
+    <origin xyz="0 0 0.0152"/>
+    <axis xyz="0 -1 0"/>
+    <limit lower="-1.2217" upper="1.2217" effort="10.0" velocity="1.0"/>
+  </joint>
+
+  <!--
+    Measured shoulder horn center to elbow horn center:
+    104.1mm = 0.1041m
+  -->
+  <link name="link_bicep">
+    <visual>
+      <origin xyz="0 0 0.05205"/>
+      <geometry>
+        <box size="0.03 0.04 0.1041"/>
+      </geometry>
+      <material name="orange"/>
+    </visual>
+
+    <collision>
+      <origin xyz="0 0 0.05205"/>
+      <geometry>
+        <box size="0.03 0.04 0.1041"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Joint 5: Elbow pitch -->
+  <joint name="joint_5_elbow" type="revolute">
+    <parent link="link_bicep"/>
+    <child link="link_forearm"/>
+    <origin xyz="0 0 0.1041"/>
+    <axis xyz="0 -1 0"/>
+    <limit lower="-1.3963" upper="1.3963" effort="10.0" velocity="1.0"/>
+  </joint>
+
+  <!--
+    Old elbow horn center to wrist pitch center:
+    146.3mm = 0.1463m
+
+    Removed section:
+    55.8mm = 0.0558m
+
+    Remaining elbow to wrist_yaw center:
+    146.3mm - 55.8mm = 90.5mm = 0.0905m
+  -->
+  <link name="link_forearm">
+    <visual>
+      <origin xyz="0 0 0.04525"/>
+      <geometry>
+        <box size="0.025 0.035 0.0905"/>
+      </geometry>
+      <material name="silver"/>
+    </visual>
+
+    <collision>
+      <origin xyz="0 0 0.04525"/>
+      <geometry>
+        <box size="0.025 0.035 0.0905"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Joint 4: Wrist yaw -->
+  <joint name="joint_4_wrist_yaw" type="revolute">
+    <parent link="link_forearm"/>
+    <child link="link_wrist_yaw"/>
+    <origin xyz="0 0 0.0905"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-1.5708" upper="1.5708" effort="10.0" velocity="1.0"/>
+  </joint>
+
+  <!--
+    New wrist_yaw servo + horn:
+    54.3mm = 0.0543m
+
+    This joint is placed before wrist_pitch.
+  -->
+  <link name="link_wrist_yaw">
+    <visual>
+      <origin xyz="0 0 0.02715"/>
+      <geometry>
+        <cylinder radius="0.022" length="0.0543"/>
+      </geometry>
+      <material name="orange"/>
+    </visual>
+
+    <collision>
+      <origin xyz="0 0 0.02715"/>
+      <geometry>
+        <cylinder radius="0.022" length="0.0543"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Joint 3: Wrist pitch -->
+  <joint name="joint_3_wrist_pitch" type="revolute">
+    <parent link="link_wrist_yaw"/>
+    <child link="link_wrist_roll"/>
+    <origin xyz="0 0 0.0543"/>
+    <axis xyz="0 1 0"/>
+    <limit lower="-1.5708" upper="1.5708" effort="10.0" velocity="1.0"/>
+  </joint>
+
+  <!--
+    Measured wrist pitch center to wrist roll / gripper rotation section:
+    73.2mm = 0.0732m
+  -->
+  <link name="link_wrist_roll">
+    <visual>
+      <origin xyz="0 0 0.0366"/>
+      <geometry>
+        <cylinder radius="0.02" length="0.0732"/>
+      </geometry>
+      <material name="orange"/>
+    </visual>
+
+    <collision>
+      <origin xyz="0 0 0.0366"/>
+      <geometry>
+        <cylinder radius="0.02" length="0.0732"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Joint 2: Wrist roll -->
+  <joint name="joint_2_wrist_roll" type="revolute">
+    <parent link="link_wrist_roll"/>
+    <child link="link_gripper_base"/>
+    <origin xyz="0 0 0.0732"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-1.3963" upper="1.3963" effort="10.0" velocity="1.0"/>
+  </joint>
+
+  <!-- Gripper base -->
+  <link name="link_gripper_base">
+    <visual>
+      <origin xyz="0 0 0.0235"/>
+      <geometry>
+        <box size="0.04 0.06 0.047"/>
+      </geometry>
+      <material name="silver"/>
+    </visual>
+
+    <collision>
+      <origin xyz="0 0 0.0235"/>
+      <geometry>
+        <box size="0.04 0.06 0.047"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Joint 1: Simplified gripper joint -->
+  <joint name="joint_1_gripper" type="revolute">
+    <parent link="link_gripper_base"/>
+    <child link="link_gripper_left_finger"/>
+    <origin xyz="0 0.015 0.047"/>
+    <axis xyz="1 0 0"/>
+    <limit lower="-0.3491" upper="0.6981" effort="10.0" velocity="1.0"/>
+  </joint>
+
+  <link name="link_gripper_left_finger">
+    <visual>
+      <origin xyz="0 0 0.03"/>
+      <geometry>
+        <box size="0.01 0.01 0.06"/>
+      </geometry>
+      <material name="orange"/>
+    </visual>
+
+    <collision>
+      <origin xyz="0 0 0.03"/>
+      <geometry>
+        <box size="0.01 0.01 0.06"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!--
+    Tool center point.
+
+    Measured gripper length:
+      at 90 degrees  = 104.7mm = 0.1047m
+      at 130 degrees = 109.2mm = 0.1092m
+
+    Current value uses 90 degree measurement.
+
+    Tool/gripper offset:
+      13.2mm = 0.0132m.
+      You said the offset is to the left in RViz, so this uses +Y.
+      If it appears on the wrong side, change +0.0132 to -0.0132.
+  -->
+  <joint name="tool0_fixed_joint" type="fixed">
+    <parent link="link_gripper_base"/>
+    <child link="tool0"/>
+    <origin xyz="0 0.0132 0.1047" rpy="0 0 0"/>
+  </joint>
+
+  <link name="tool0">
+    <visual>
+      <origin xyz="0 0 0"/>
+      <geometry>
+        <sphere radius="0.008"/>
+      </geometry>
+      <material name="green"/>
+    </visual>
+  </link>
+
+</robot>

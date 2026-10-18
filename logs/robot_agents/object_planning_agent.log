@@ -1,0 +1,40 @@
+[INFO] [1782045409.051887221] [object_planning_agent]: ✅ object_planning_agent ready
+[INFO] [1782045409.070485474] [object_planning_agent]: Reads workspace:motion_points and controls RViz simulation
+[INFO] [1782045409.087443028] [object_planning_agent]: Request stream: stream:planning_requests
+[INFO] [1782045409.106572645] [object_planning_agent]: send_to_real=False
+[INFO] [1782045441.014233676] [object_planning_agent]: 📥 planning request: plan-eb993d5639 action=stop target=nearest_object
+[INFO] [1782045441.024910347] [object_planning_agent]: ✅ trajectory sent to RViz controller
+[INFO] [1782045543.858257199] [object_planning_agent]: 📥 planning request: plan-39b741db22 action=approach target=зеления обект
+[INFO] [1782045543.900891340] [object_planning_agent]: ✅ trajectory sent to RViz controller
+[INFO] [1782045554.299182787] [object_planning_agent]: 📥 planning request: plan-2be88dbb53 action=grasp target=зеления обект
+[INFO] [1782045554.490217423] [object_planning_agent]: ✅ trajectory sent to RViz controller
+[INFO] [1782045587.880360023] [object_planning_agent]: 📥 planning request: plan-2cd52753db action=approach target=зелен обект 2
+[INFO] [1782045587.949662485] [object_planning_agent]: ✅ trajectory sent to RViz controller
+[INFO] [1782045591.550293885] [object_planning_agent]: 📥 planning request: plan-a8725917e4 action=approach target=зелен обект 1
+[INFO] [1782045591.802977887] [object_planning_agent]: ✅ trajectory sent to RViz controller
+[INFO] [1782045599.522385502] [object_planning_agent]: 📥 planning request: plan-1a15fa12ff action=approach target=синия обект
+[INFO] [1782045599.627619122] [object_planning_agent]: ✅ trajectory sent to RViz controller
+[INFO] [1782045614.786141810] [object_planning_agent]: 📥 planning request: plan-8a6b23c99a action=pick target=синия обект
+[INFO] [1782045629.163891432] [object_planning_agent]: 📥 planning request: plan-f27d9ac9ac action=pick target=синия обект
+[INFO] [1782045632.977655015] [object_planning_agent]: 📥 planning request: correct-5041e0b8fd action=correct target=синия обект
+[INFO] [1782045634.813256811] [object_planning_agent]: 📥 planning request: plan-cf2d504ff6 action=pick target=синия обект
+[INFO] [1782045659.015716798] [object_planning_agent]: 📥 planning request: plan-e5d6bbf5f8 action=approach target=зеления обект
+[INFO] [1782045659.154203488] [object_planning_agent]: ✅ trajectory sent to RViz controller
+[INFO] [1782045669.024623746] [object_planning_agent]: 📥 planning request: plan-afa9e8db46 action=approach target=зелен обект 2
+[INFO] [1782045669.162773692] [object_planning_agent]: ✅ trajectory sent to RViz controller
+[INFO] [1782045679.550477327] [object_planning_agent]: 📥 planning request: plan-1aaec97951 action=pick target=зелен обект 2
+[INFO] [1782045679.718551341] [object_planning_agent]: ✅ trajectory sent to RViz controller
+[INFO] [1782045680.701573215] [object_planning_agent]: ✅ trajectory sent to RViz controller
+[INFO] [1782045682.233313129] [object_planning_agent]: ✅ trajectory sent to RViz controller
+[INFO] [1782045701.799657662] [object_planning_agent]: 📥 planning request: plan-938e9f1214 action=home target=point_0
+[INFO] [1782045701.845967666] [object_planning_agent]: ✅ trajectory sent to RViz controller
+[INFO] [1782045732.713823925] [object_planning_agent]: 📥 planning request: plan-cea1f5b9ed action=approach target=сив обект
+[INFO] [1782045742.076761752] [object_planning_agent]: 📥 planning request: plan-18bd2377a5 action=approach target=сивия обект
+[INFO] [1782045756.817463774] [object_planning_agent]: 📥 planning request: plan-6b3f2d8926 action=approach target=зелен обект 2
+[INFO] [1782045756.943221276] [object_planning_agent]: ✅ trajectory sent to RViz controller
+[INFO] [1782045766.608869083] [object_planning_agent]: 📥 planning request: plan-43c87fe159 action=approach target=синия обект
+[INFO] [1782045767.004475754] [object_planning_agent]: ✅ trajectory sent to RViz controller
+[INFO] [1782045784.207744053] [object_planning_agent]: 📥 planning request: plan-d35af24d6c action=approach target=зелен обект 1
+[INFO] [1782045784.239696452] [object_planning_agent]: ✅ trajectory sent to RViz controller
+[INFO] [1782045786.544522320] [object_planning_agent]: 📥 planning request: plan-b8cb35c4ed action=approach target=зелен обект 2
+[INFO] [1782045786.703183405] [object_planning_agent]: ✅ trajectory sent to RViz controller

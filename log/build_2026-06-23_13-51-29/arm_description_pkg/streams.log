@@ -1,0 +1,29 @@
+[0.175s] Invoking command in '/workspace/build/arm_description_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/servo_pkg:/workspace/install/robot_system:/opt/ros/jazzy PS1=(arm_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(arm_env) /usr/bin/cmake --build /workspace/build/arm_description_pkg -- -j4 -l4
+[0.601s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.459s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.341s] -- Configuring done (2.8s)
+[3.408s] -- Generating done (0.0s)
+[3.461s] -- Build files have been written to: /workspace/build/arm_description_pkg
+[3.715s] Invoked command in '/workspace/build/arm_description_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/servo_pkg:/workspace/install/robot_system:/opt/ros/jazzy PS1=(arm_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(arm_env) /usr/bin/cmake --build /workspace/build/arm_description_pkg -- -j4 -l4
+[3.809s] Invoking command in '/workspace/build/arm_description_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/servo_pkg:/workspace/install/robot_system:/opt/ros/jazzy PS1=(arm_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(arm_env) /usr/bin/cmake --install /workspace/build/arm_description_pkg
+[3.935s] -- Install configuration: ""
+[3.939s] -- Execute custom install script
+[3.957s] -- Symlinking: /workspace/install/arm_description_pkg/share/arm_description_pkg/launch/display.launch.py
+[4.083s] -- Symlinking: /workspace/install/arm_description_pkg/share/arm_description_pkg/rviz/display.rviz
+[4.213s] -- Symlinking: /workspace/install/arm_description_pkg/share/arm_description_pkg/urdf/arm.urdf
+[4.338s] -- Up-to-date symlink: /workspace/install/arm_description_pkg/share/ament_index/resource_index/package_run_dependencies/arm_description_pkg
+[4.339s] -- Up-to-date symlink: /workspace/install/arm_description_pkg/share/ament_index/resource_index/parent_prefix_path/arm_description_pkg
+[4.347s] -- Up-to-date symlink: /workspace/install/arm_description_pkg/share/arm_description_pkg/environment/ament_prefix_path.sh
+[4.353s] -- Up-to-date symlink: /workspace/install/arm_description_pkg/share/arm_description_pkg/environment/ament_prefix_path.dsv
+[4.360s] -- Up-to-date symlink: /workspace/install/arm_description_pkg/share/arm_description_pkg/environment/path.sh
+[4.361s] -- Up-to-date symlink: /workspace/install/arm_description_pkg/share/arm_description_pkg/environment/path.dsv
+[4.373s] -- Up-to-date symlink: /workspace/install/arm_description_pkg/share/arm_description_pkg/local_setup.bash
+[4.374s] -- Up-to-date symlink: /workspace/install/arm_description_pkg/share/arm_description_pkg/local_setup.sh
+[4.380s] -- Up-to-date symlink: /workspace/install/arm_description_pkg/share/arm_description_pkg/local_setup.zsh
+[4.383s] -- Up-to-date symlink: /workspace/install/arm_description_pkg/share/arm_description_pkg/local_setup.dsv
+[4.387s] -- Symlinking: /workspace/install/arm_description_pkg/share/arm_description_pkg/package.dsv
+[4.518s] -- Up-to-date symlink: /workspace/install/arm_description_pkg/share/ament_index/resource_index/packages/arm_description_pkg
+[4.521s] -- Up-to-date symlink: /workspace/install/arm_description_pkg/share/arm_description_pkg/cmake/arm_description_pkgConfig.cmake
+[4.523s] -- Up-to-date symlink: /workspace/install/arm_description_pkg/share/arm_description_pkg/cmake/arm_description_pkgConfig-version.cmake
+[4.524s] -- Up-to-date symlink: /workspace/install/arm_description_pkg/share/arm_description_pkg/package.xml
+[4.552s] Invoked command in '/workspace/build/arm_description_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/servo_pkg:/workspace/install/robot_system:/opt/ros/jazzy PS1=(arm_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(arm_env) /usr/bin/cmake --install /workspace/build/arm_description_pkg

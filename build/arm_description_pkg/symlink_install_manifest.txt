@@ -1,5 +1,6 @@
-/workspace/install/arm_description_pkg/share/arm_description_pkg/urdf/idk_arm.urdf
-/workspace/install/arm_description_pkg/share/arm_description_pkg/urdf/robotic_arm.urdf
+/workspace/install/arm_description_pkg/share/arm_description_pkg/launch/display.launch.py
+/workspace/install/arm_description_pkg/share/arm_description_pkg/rviz/display.rviz
+/workspace/install/arm_description_pkg/share/arm_description_pkg/urdf/arm.urdf
 /workspace/install/arm_description_pkg/share/ament_index/resource_index/package_run_dependencies/arm_description_pkg
 /workspace/install/arm_description_pkg/share/ament_index/resource_index/parent_prefix_path/arm_description_pkg
 /workspace/install/arm_description_pkg/share/arm_description_pkg/environment/ament_prefix_path.sh

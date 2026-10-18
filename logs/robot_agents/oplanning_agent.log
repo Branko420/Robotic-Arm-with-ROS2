@@ -1,0 +1,290 @@
+[INFO] [1782318766.701582770] [planning_agent]: Planning agent publishes the robot model directly on /joint_states at 30.0 Hz
+[WARN] [1782318766.708756612] [planning_agent]: Disable PLANNER_PUBLISH_MODEL_JOINT_STATES when a real joint_state_broadcaster publishes /joint_states.
+[INFO] [1782318766.717536441] [planning_agent]: ✅ planning_agent ready
+[INFO] [1782318766.721939180] [planning_agent]: Planning solutions update /joint_states directly for RViz; the physical arm remains a separate slower UDP target.
+[INFO] [1782318766.726376085] [planning_agent]: send_to_real=True pi=192.168.188.144:9090
+[INFO] [1782318766.731001756] [planning_agent]: home/scan pose={'name': 'home', 'purpose': 'normal_home', 'joint_degrees': {'joint_6_base': 0.0, 'joint_5_shoulder': 67.5, 'joint_4_elbow': -83.9, 'joint_3_wrist_pitch': 80.0, 'joint_2_wrist_roll': 0.0}, 'gripper_rviz_degrees': -10.0, 'servo_degrees': {'base': 92.0, 'shoulder': 141.6, 'elbow': 0.0, 'wrist': 180.0, 'wrist_rotation': 90.0, 'gripper': 70.0}}
+[INFO] [1782318815.570299400] [planning_agent]: 📥 planning request: pose-status-96b861ad52 action=pose_status target=home
+[INFO] [1782318815.631738730] [planning_agent]: 📥 planning request: home-2dde9aa77a action=home target=home
+[INFO] [1782318815.685028406] [planning_agent]: RobotModel target set directly for joint_1_gripper; duration=0.45s
+[INFO] [1782318815.716650701] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.80s
+[INFO] [1782318816.173533187] [planning_agent]: 📥 planning request: barge-in-stop-1782318816130647338 action=stop target=None
+[INFO] [1782318816.181334424] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.20s
+[INFO] [1782318827.608166137] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=10.00s wait_for_completion=True angles={'base': 92.0, 'shoulder': 141.6, 'elbow': 0.0, 'wrist': 180.0, 'wrist_rotation': 90.0, 'gripper': 70.0}
+[INFO] [1782318827.608976450] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=0.20s wait_for_completion=False angles={'base': 92.0, 'shoulder': 124.566, 'elbow': 43.407, 'wrist': 133.112, 'wrist_rotation': 90.0}
+[INFO] [1782318827.632266828] [planning_agent]: 📥 planning request: barge-in-stop-1782318827367762047 action=stop target=None
+[INFO] [1782318827.641194219] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.20s
+[INFO] [1782318827.676020109] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=0.20s wait_for_completion=False angles={'base': 92.0, 'shoulder': 124.566, 'elbow': 43.407, 'wrist': 133.112, 'wrist_rotation': 90.0}
+[INFO] [1782318827.697458515] [planning_agent]: 📥 planning request: plan-94dac91af6 action=stop target=nearest_object
+[INFO] [1782318827.705344974] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.20s
+[INFO] [1782318827.716577345] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=0.20s wait_for_completion=False angles={'base': 92.0, 'shoulder': 124.566, 'elbow': 43.407, 'wrist': 133.112, 'wrist_rotation': 90.0}
+[INFO] [1782318852.574748400] [planning_agent]: 📥 planning request: barge-in-stop-1782318852530278422 action=stop target=None
+[INFO] [1782318852.588449810] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.20s
+[INFO] [1782318852.723991759] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=0.20s wait_for_completion=False angles={'base': 92.0, 'shoulder': 124.566, 'elbow': 43.407, 'wrist': 133.112, 'wrist_rotation': 90.0}
+[INFO] [1782318853.789483389] [planning_agent]: 📥 planning request: pose-status-abd9a4c8f9 action=pose_status target=home
+[INFO] [1782318853.823581315] [planning_agent]: 📥 planning request: home-452c325b66 action=home target=home
+[INFO] [1782318853.851679741] [planning_agent]: RobotModel target set directly for joint_1_gripper; duration=0.45s
+[INFO] [1782318853.874314342] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.80s
+[INFO] [1782318865.758573935] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=10.00s wait_for_completion=True angles={'base': 92.0, 'shoulder': 141.6, 'elbow': 0.0, 'wrist': 180.0, 'wrist_rotation': 90.0, 'gripper': 70.0}
+[INFO] [1782318865.823516508] [planning_agent]: 📥 planning request: scan_pose-e635410798 action=scan_pose target=scan_pose
+[INFO] [1782318865.845345327] [planning_agent]: RobotModel target set directly for joint_1_gripper; duration=0.45s
+[INFO] [1782318865.874566009] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.80s
+[INFO] [1782318877.758629228] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=10.00s wait_for_completion=True angles={'base': 0.0, 'shoulder': 31.5, 'elbow': 90.4, 'wrist': 180.0, 'wrist_rotation': 90.0, 'gripper': 70.0}
+[INFO] [1782318893.676401203] [planning_agent]: 📥 planning request: home-3c3eca34ed action=home target=home
+[INFO] [1782318893.690549331] [planning_agent]: RobotModel target set directly for joint_1_gripper; duration=0.45s
+[INFO] [1782318893.888030700] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.80s
+[INFO] [1782318905.785696445] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=10.00s wait_for_completion=True angles={'base': 92.0, 'shoulder': 141.6, 'elbow': 0.0, 'wrist': 180.0, 'wrist_rotation': 90.0, 'gripper': 70.0}
+[INFO] [1782318915.079288655] [planning_agent]: 📥 planning request: barge-in-stop-1782318915042416214 action=stop target=None
+[INFO] [1782318915.082741626] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.20s
+[INFO] [1782318915.367100202] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=0.20s wait_for_completion=False angles={'base': 92.0, 'shoulder': 141.6, 'elbow': 0.0, 'wrist': 180.0, 'wrist_rotation': 90.0}
+[INFO] [1782318916.378229336] [planning_agent]: 📥 planning request: pose-status-b1ff757ff0 action=pose_status target=home
+[INFO] [1782318916.443261621] [planning_agent]: 📥 planning request: scan_pose-970c8bddaa action=scan_pose target=scan_pose
+[INFO] [1782318916.479838838] [planning_agent]: RobotModel target set directly for joint_1_gripper; duration=0.45s
+[INFO] [1782318916.493220576] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.80s
+[INFO] [1782318928.381334276] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=10.00s wait_for_completion=True angles={'base': 0.0, 'shoulder': 31.5, 'elbow': 90.4, 'wrist': 180.0, 'wrist_rotation': 90.0, 'gripper': 70.0}
+[INFO] [1782318936.229450101] [planning_agent]: 📥 planning request: home-fd9e40346a action=home target=home
+[INFO] [1782318936.307212976] [planning_agent]: RobotModel target set directly for joint_1_gripper; duration=0.45s
+[INFO] [1782318936.626456043] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.80s
+[INFO] [1782318948.519799496] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=10.00s wait_for_completion=True angles={'base': 92.0, 'shoulder': 141.6, 'elbow': 0.0, 'wrist': 180.0, 'wrist_rotation': 90.0, 'gripper': 70.0}
+[INFO] [1782318948.579823690] [planning_agent]: 📥 planning request: sync-traceback-005fd11190 action=sync_traceback target=None
+[INFO] [1782318969.274802520] [planning_agent]: 📥 planning request: resolve-target-c037edcbe5 action=resolve_target target=син обект
+[INFO] [1782318992.047534469] [planning_agent]: 📥 planning request: resolve-target-fb63f83050 action=resolve_target target=зелен обект
+[INFO] [1782318992.099819372] [planning_agent]: 📥 planning request: barge-in-stop-1782318992031980534 action=stop target=None
+[INFO] [1782318992.227938067] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.20s
+[INFO] [1782318992.505567423] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=0.20s wait_for_completion=False angles={'base': 92.0, 'shoulder': 141.6, 'elbow': 0.0, 'wrist': 180.0, 'wrist_rotation': 90.0}
+[INFO] [1782319001.438944183] [planning_agent]: 📥 planning request: barge-in-stop-1782319001396847521 action=stop target=None
+[INFO] [1782319001.447816807] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.20s
+[INFO] [1782319001.707048627] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=0.20s wait_for_completion=False angles={'base': 92.0, 'shoulder': 141.6, 'elbow': 0.0, 'wrist': 180.0, 'wrist_rotation': 90.0}
+[INFO] [1782319002.070253244] [planning_agent]: 📥 planning request: resolve-target-e99d26f6a6 action=resolve_target target=десния зелен обект
+[INFO] [1782319003.980308118] [planning_agent]: 📥 planning request: resolve-target-54ba64fd0d action=resolve_target target=десния зелен обект
+[INFO] [1782319004.480393441] [planning_agent]: 📥 planning request: plan-b7b75ed3d4 action=approach target=green_2
+[INFO] [1782319004.759336269] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.80s
+[INFO] [1782319004.788786944] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=10.00s wait_for_completion=False angles={'base': 59.879, 'shoulder': 66.598, 'elbow': 15.434, 'wrist': 97.576, 'wrist_rotation': 90.0}
+[INFO] [1782319004.801391325] [planning_agent]: approach: waiting 10.00s movement + 1.00s settle
+[INFO] [1782319028.027810236] [planning_agent]: 📥 planning request: resolve-target-bb9dd5f57c action=resolve_target target=десния зелен обект
+[INFO] [1782319028.467396835] [planning_agent]: 📥 planning request: plan-fef27d14b0 action=pick target=green_2
+[INFO] [1782319028.653772966] [planning_agent]: pick:approach_3cm target=(0.3320,-0.1575,0.0263) reached=(0.3320,-0.1575,0.0263) error=0.000003m joints_deg={'joint_6_base': -25.376707317073173, 'joint_5_shoulder': -52.07661290322582, 'joint_4_elbow': -66.649, 'joint_3_wrist_pitch': -0.7252232142857089, 'joint_2_wrist_roll': 0.0}
+[INFO] [1782319028.716085630] [planning_agent]: pick:grasp_center target=(0.3320,-0.1575,-0.0037) reached=(0.3320,-0.1575,-0.0036) error=0.000005m joints_deg={'joint_6_base': -25.376707317073173, 'joint_5_shoulder': -61.32157258064517, 'joint_4_elbow': -59.763000000000005, 'joint_3_wrist_pitch': 0.9146341463414631, 'joint_2_wrist_roll': 0.0}
+[INFO] [1782319028.772787245] [planning_agent]: pick:retreat_3cm target=(0.3320,-0.1575,0.0263) reached=(0.3320,-0.1575,0.0263) error=0.000003m joints_deg={'joint_6_base': -25.376707317073173, 'joint_5_shoulder': -52.07661290322582, 'joint_4_elbow': -66.649, 'joint_3_wrist_pitch': -0.7252232142857089, 'joint_2_wrist_roll': 0.0}
+[INFO] [1782319028.810446269] [planning_agent]: RobotModel target set directly for joint_1_gripper; duration=0.45s
+[INFO] [1782319028.835671517] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=2.00s wait_for_completion=False angles={'gripper': 70.0}
+[INFO] [1782319031.452779273] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.80s
+[INFO] [1782319031.484211034] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=10.00s wait_for_completion=False angles={'base': 59.879, 'shoulder': 54.8, 'elbow': 21.351, 'wrist': 93.078, 'wrist_rotation': 90.0}
+[INFO] [1782319031.510471110] [planning_agent]: pick:approach_3cm: waiting 10.00s movement + 1.00s settle
+[INFO] [1782319042.888001943] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.80s
+[INFO] [1782319042.938599900] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=10.00s wait_for_completion=False angles={'base': 59.879, 'shoulder': 49.705, 'elbow': 28.237, 'wrist': 94.8, 'wrist_rotation': 90.0}
+[INFO] [1782319042.954756282] [planning_agent]: pick:grasp_center: waiting 10.00s movement + 1.00s settle
+[INFO] [1782319054.251929720] [planning_agent]: RobotModel target set directly for joint_1_gripper; duration=0.45s
+[INFO] [1782319054.256737253] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=2.00s wait_for_completion=False angles={'gripper': 120.0}
+[INFO] [1782319056.856473793] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.80s
+[INFO] [1782319056.910352454] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=10.00s wait_for_completion=False angles={'base': 59.879, 'shoulder': 54.8, 'elbow': 21.351, 'wrist': 93.078, 'wrist_rotation': 90.0}
+[INFO] [1782319056.936831819] [planning_agent]: pick:retreat_3cm: waiting 10.00s movement + 1.00s settle
+[INFO] [1782319072.128821595] [planning_agent]: 📥 planning request: relative-0611cbc806 action=move_relative target=None
+[INFO] [1782319072.279550732] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.80s
+[INFO] [1782319072.291389339] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=10.00s wait_for_completion=False angles={'base': 59.879, 'shoulder': 56.319, 'elbow': 21.296, 'wrist': 95.96, 'wrist_rotation': 90.0}
+[INFO] [1782319072.303369409] [planning_agent]: move_relative: waiting 10.00s movement + 1.00s settle
+[INFO] [1782319081.149601000] [planning_agent]: 📥 planning request: barge-in-stop-1782319081113741175 action=stop target=None
+[INFO] [1782319081.180680032] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.20s
+[INFO] [1782319081.268955631] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=0.20s wait_for_completion=False angles={'base': 59.879, 'shoulder': 56.319, 'elbow': 21.296, 'wrist': 95.96, 'wrist_rotation': 90.0}
+[INFO] [1782319097.242037586] [planning_agent]: 📥 planning request: barge-in-stop-1782319097196990356 action=stop target=None
+[INFO] [1782319097.263930595] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.20s
+[INFO] [1782319097.573583409] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=0.20s wait_for_completion=False angles={'base': 59.879, 'shoulder': 56.319, 'elbow': 21.296, 'wrist': 95.96, 'wrist_rotation': 90.0}
+[INFO] [1782319098.722957987] [planning_agent]: 📥 planning request: resolve-target-61b10f7974 action=resolve_target target=десния зелен обект
+[INFO] [1782319100.521466372] [planning_agent]: 📥 planning request: resolve-target-0d1aff371d action=resolve_target target=десния зелен обект
+[INFO] [1782319100.980005374] [planning_agent]: 📥 planning request: plan-d87f8df7dc action=pick target=green_2
+[INFO] [1782319101.395850883] [planning_agent]: pick:approach_3cm target=(0.3320,-0.1575,0.0263) reached=(0.3320,-0.1575,0.0263) error=0.000003m joints_deg={'joint_6_base': -25.376707317073173, 'joint_5_shoulder': -52.07661290322582, 'joint_4_elbow': -66.649, 'joint_3_wrist_pitch': -0.7252232142857089, 'joint_2_wrist_roll': 0.0}
+[INFO] [1782319101.456552983] [planning_agent]: pick:grasp_center target=(0.3320,-0.1575,-0.0037) reached=(0.3320,-0.1575,-0.0036) error=0.000005m joints_deg={'joint_6_base': -25.376707317073173, 'joint_5_shoulder': -61.32157258064517, 'joint_4_elbow': -59.763000000000005, 'joint_3_wrist_pitch': 0.9146341463414631, 'joint_2_wrist_roll': 0.0}
+[INFO] [1782319101.503086774] [planning_agent]: pick:retreat_3cm target=(0.3320,-0.1575,0.0263) reached=(0.3320,-0.1575,0.0263) error=0.000003m joints_deg={'joint_6_base': -25.376707317073173, 'joint_5_shoulder': -52.07661290322582, 'joint_4_elbow': -66.649, 'joint_3_wrist_pitch': -0.7252232142857089, 'joint_2_wrist_roll': 0.0}
+[INFO] [1782319101.550724833] [planning_agent]: RobotModel target set directly for joint_1_gripper; duration=0.45s
+[INFO] [1782319101.576678940] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=2.00s wait_for_completion=False angles={'gripper': 70.0}
+[INFO] [1782319104.122277684] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.80s
+[INFO] [1782319104.131588740] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=10.00s wait_for_completion=False angles={'base': 59.879, 'shoulder': 54.8, 'elbow': 21.351, 'wrist': 93.078, 'wrist_rotation': 90.0}
+[INFO] [1782319104.141015101] [planning_agent]: pick:approach_3cm: waiting 10.00s movement + 1.00s settle
+[INFO] [1782319115.352800654] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.80s
+[INFO] [1782319115.358579389] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=10.00s wait_for_completion=False angles={'base': 59.879, 'shoulder': 49.705, 'elbow': 28.237, 'wrist': 94.8, 'wrist_rotation': 90.0}
+[INFO] [1782319115.368434652] [planning_agent]: pick:grasp_center: waiting 10.00s movement + 1.00s settle
+[INFO] [1782319126.759873308] [planning_agent]: RobotModel target set directly for joint_1_gripper; duration=0.45s
+[INFO] [1782319126.840034028] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=2.00s wait_for_completion=False angles={'gripper': 120.0}
+[INFO] [1782319129.387127280] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.80s
+[INFO] [1782319129.414679207] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=10.00s wait_for_completion=False angles={'base': 59.879, 'shoulder': 54.8, 'elbow': 21.351, 'wrist': 93.078, 'wrist_rotation': 90.0}
+[INFO] [1782319129.432350233] [planning_agent]: pick:retreat_3cm: waiting 10.00s movement + 1.00s settle
+[INFO] [1782319136.031527324] [planning_agent]: 📥 planning request: barge-in-stop-1782319136000865764 action=stop target=None
+[INFO] [1782319136.048364663] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.20s
+[INFO] [1782319136.289545964] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=0.20s wait_for_completion=False angles={'base': 59.879, 'shoulder': 54.8, 'elbow': 21.351, 'wrist': 93.078, 'wrist_rotation': 90.0}
+[INFO] [1782319145.077129598] [planning_agent]: 📥 planning request: barge-in-stop-1782319145033588424 action=stop target=None
+[INFO] [1782319145.087091176] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.20s
+[INFO] [1782319145.182455699] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=0.20s wait_for_completion=False angles={'base': 59.879, 'shoulder': 54.8, 'elbow': 21.351, 'wrist': 93.078, 'wrist_rotation': 90.0}
+[INFO] [1782319145.943467514] [planning_agent]: 📥 planning request: plan-7d6933bad6 action=stop target=nearest_object
+[INFO] [1782319145.962619856] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.20s
+[INFO] [1782319145.976903096] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=0.20s wait_for_completion=False angles={'base': 59.879, 'shoulder': 54.8, 'elbow': 21.351, 'wrist': 93.078, 'wrist_rotation': 90.0}
+[INFO] [1782319205.606810004] [planning_agent]: 📥 planning request: barge-in-stop-1782319205578026139 action=stop target=None
+[INFO] [1782319205.630468702] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.20s
+[INFO] [1782319206.026839504] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=0.20s wait_for_completion=False angles={'base': 59.879, 'shoulder': 54.8, 'elbow': 21.351, 'wrist': 93.078, 'wrist_rotation': 90.0}
+[INFO] [1782319248.628216376] [planning_agent]: 📥 planning request: barge-in-stop-1782319248596301692 action=stop target=None
+[INFO] [1782319248.649670639] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.20s
+[INFO] [1782319249.007624241] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=0.20s wait_for_completion=False angles={'base': 59.879, 'shoulder': 54.8, 'elbow': 21.351, 'wrist': 93.078, 'wrist_rotation': 90.0}
+[INFO] [1782319263.834512002] [planning_agent]: 📥 planning request: barge-in-stop-1782319263768514377 action=stop target=None
+[INFO] [1782319263.852209018] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.20s
+[INFO] [1782319264.047010641] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=0.20s wait_for_completion=False angles={'base': 59.879, 'shoulder': 54.8, 'elbow': 21.351, 'wrist': 93.078, 'wrist_rotation': 90.0}
+[INFO] [1782319361.805165449] [planning_agent]: 📥 planning request: pose-status-eaf0ad44d9 action=pose_status target=home
+[INFO] [1782319361.866470219] [planning_agent]: 📥 planning request: home-4f11ea7a7b action=home target=home
+[INFO] [1782319361.885597209] [planning_agent]: RobotModel target set directly for joint_1_gripper; duration=0.45s
+[INFO] [1782319361.948122549] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.80s
+[INFO] [1782319373.861422716] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=10.00s wait_for_completion=True angles={'base': 92.0, 'shoulder': 141.6, 'elbow': 0.0, 'wrist': 180.0, 'wrist_rotation': 90.0, 'gripper': 70.0}
+[INFO] [1782319373.960023016] [planning_agent]: 📥 planning request: scan_pose-208d694912 action=scan_pose target=scan_pose
+[INFO] [1782319374.026218803] [planning_agent]: RobotModel target set directly for joint_1_gripper; duration=0.45s
+[INFO] [1782319374.108342558] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.80s
+[INFO] [1782319386.011506804] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=10.00s wait_for_completion=True angles={'base': 0.0, 'shoulder': 31.5, 'elbow': 90.4, 'wrist': 180.0, 'wrist_rotation': 90.0, 'gripper': 70.0}
+[INFO] [1782319388.043228867] [planning_agent]: 📥 planning request: barge-in-stop-1782319387972884148 action=stop target=None
+[INFO] [1782319388.068400880] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.20s
+[INFO] [1782319388.172308381] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=0.20s wait_for_completion=False angles={'base': 0.0, 'shoulder': 31.5, 'elbow': 90.4, 'wrist': 180.0, 'wrist_rotation': 90.0}
+[INFO] [1782319393.934774832] [planning_agent]: 📥 planning request: home-adca8f4f9c action=home target=home
+[INFO] [1782319393.985479823] [planning_agent]: RobotModel target set directly for joint_1_gripper; duration=0.45s
+[INFO] [1782319394.310439306] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.80s
+[INFO] [1782319398.448115865] [planning_agent]: 📥 planning request: barge-in-stop-1782319398419340729 action=stop target=None
+[INFO] [1782319398.460516120] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.20s
+[INFO] [1782319406.210465941] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=0.20s wait_for_completion=False angles={'base': 92.0, 'shoulder': 141.6, 'elbow': 0.0, 'wrist': 180.0, 'wrist_rotation': 90.0}
+[INFO] [1782319406.218204338] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=10.00s wait_for_completion=True angles={'base': 92.0, 'shoulder': 141.6, 'elbow': 0.0, 'wrist': 180.0, 'wrist_rotation': 90.0, 'gripper': 70.0}
+[INFO] [1782319406.264132490] [planning_agent]: 📥 planning request: barge-in-stop-1782319404672045805 action=stop target=None
+[INFO] [1782319406.277733540] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.20s
+[INFO] [1782319406.368398423] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=0.20s wait_for_completion=False angles={'base': 92.0, 'shoulder': 141.6, 'elbow': 0.0, 'wrist': 180.0, 'wrist_rotation': 90.0}
+[INFO] [1782319421.981178807] [planning_agent]: 📥 planning request: resolve-target-9d9f6b5cdc action=resolve_target target=десния зелен обект
+[INFO] [1782319423.895822792] [planning_agent]: 📥 planning request: resolve-target-b30d31e560 action=resolve_target target=десния зелен обект
+[INFO] [1782319424.424801167] [planning_agent]: 📥 planning request: plan-6dc6326d87 action=pick target=green_2
+[INFO] [1782319425.030966508] [planning_agent]: pick:approach_3cm target=(0.3260,-0.1555,0.0201) reached=(0.3260,-0.1555,0.0201) error=0.000007m joints_deg={'joint_6_base': -25.504024390243906, 'joint_5_shoulder': -50.63225806451614, 'joint_4_elbow': -69.376, 'joint_3_wrist_pitch': -0.007031249999990052, 'joint_2_wrist_roll': 0.0}
+[INFO] [1782319425.130865537] [planning_agent]: pick:grasp_center target=(0.3260,-0.1555,-0.0099) reached=(0.3260,-0.1555,-0.0099) error=0.000006m joints_deg={'joint_6_base': -25.504024390243906, 'joint_5_shoulder': -60.167540322580635, 'joint_4_elbow': -64.68299999999999, 'joint_3_wrist_pitch': -2.849665178571435, 'joint_2_wrist_roll': 0.0}
+[INFO] [1782319425.198623451] [planning_agent]: pick:retreat_3cm target=(0.3260,-0.1555,0.0201) reached=(0.3260,-0.1555,0.0201) error=0.000007m joints_deg={'joint_6_base': -25.504024390243906, 'joint_5_shoulder': -50.63225806451614, 'joint_4_elbow': -69.376, 'joint_3_wrist_pitch': -0.007031249999990052, 'joint_2_wrist_roll': 0.0}
+[INFO] [1782319425.247968766] [planning_agent]: RobotModel target set directly for joint_1_gripper; duration=0.45s
+[INFO] [1782319425.252587297] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=2.00s wait_for_completion=False angles={'gripper': 70.0}
+[INFO] [1782319427.826120827] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.80s
+[INFO] [1782319427.839972120] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=10.00s wait_for_completion=False angles={'base': 59.763, 'shoulder': 55.596, 'elbow': 18.155, 'wrist': 93.793, 'wrist_rotation': 90.0}
+[INFO] [1782319427.847220011] [planning_agent]: pick:approach_3cm: waiting 10.00s movement + 1.00s settle
+[INFO] [1782319439.242629570] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.80s
+[INFO] [1782319439.270003762] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=10.00s wait_for_completion=False angles={'base': 59.763, 'shoulder': 50.341, 'elbow': 23.317, 'wrist': 90.963, 'wrist_rotation': 90.0}
+[INFO] [1782319439.327404139] [planning_agent]: pick:grasp_center: waiting 10.00s movement + 1.00s settle
+[INFO] [1782319450.540041906] [planning_agent]: RobotModel target set directly for joint_1_gripper; duration=0.45s
+[INFO] [1782319450.589681018] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=2.00s wait_for_completion=False angles={'gripper': 120.0}
+[INFO] [1782319453.163797773] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.80s
+[INFO] [1782319453.201304104] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=10.00s wait_for_completion=False angles={'base': 59.763, 'shoulder': 55.596, 'elbow': 18.155, 'wrist': 93.793, 'wrist_rotation': 90.0}
+[INFO] [1782319453.214270715] [planning_agent]: pick:retreat_3cm: waiting 10.00s movement + 1.00s settle
+[INFO] [1782319479.726176616] [planning_agent]: 📥 planning request: resolve-target-847e24741e action=resolve_target target=левия зелен обект
+[INFO] [1782319480.338327576] [planning_agent]: 📥 planning request: held-place-3e19e6e9fe action=place_held_at target=None
+[INFO] [1782319481.222496104] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.80s
+[INFO] [1782319481.254100754] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=10.00s wait_for_completion=False angles={'base': 59.763, 'shoulder': 71.728, 'elbow': 8.414, 'wrist': 93.439, 'wrist_rotation': 90.0}
+[INFO] [1782319481.316158205] [planning_agent]: place_held:held_source_transit: waiting 10.00s movement + 1.00s settle
+[INFO] [1782319486.186686356] [planning_agent]: 📥 planning request: barge-in-stop-1782319486120029514 action=stop target=None
+[INFO] [1782319486.203620369] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.20s
+[INFO] [1782319486.271312978] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=0.20s wait_for_completion=False angles={'base': 59.763, 'shoulder': 71.728, 'elbow': 8.414, 'wrist': 93.439, 'wrist_rotation': 90.0}
+[INFO] [1782319501.522778826] [planning_agent]: 📥 planning request: resolve-target-bfc52544f4 action=resolve_target target=левия зелен обект
+[INFO] [1782319501.889092900] [planning_agent]: 📥 planning request: held-place-fce19ccc39 action=place_held_at target=None
+[INFO] [1782319502.499966924] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.80s
+[INFO] [1782319502.507390848] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=10.00s wait_for_completion=False angles={'base': 59.763, 'shoulder': 71.728, 'elbow': 8.414, 'wrist': 93.439, 'wrist_rotation': 90.0}
+[INFO] [1782319502.521899799] [planning_agent]: place_held:held_source_transit: waiting 10.00s movement + 1.00s settle
+[INFO] [1782319512.020990531] [planning_agent]: 📥 planning request: barge-in-stop-1782319511973278629 action=stop target=None
+[INFO] [1782319512.043043766] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.20s
+[INFO] [1782319512.285743080] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=0.20s wait_for_completion=False angles={'base': 59.763, 'shoulder': 71.728, 'elbow': 8.414, 'wrist': 93.439, 'wrist_rotation': 90.0}
+[INFO] [1782319532.071865826] [planning_agent]: 📥 planning request: plan-68d3bcda9f action=stop target=nearest_object
+[INFO] [1782319532.077705890] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.20s
+[INFO] [1782319532.281301742] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=0.20s wait_for_completion=False angles={'base': 59.763, 'shoulder': 71.728, 'elbow': 8.414, 'wrist': 93.439, 'wrist_rotation': 90.0}
+[INFO] [1782319548.200425968] [planning_agent]: 📥 planning request: barge-in-stop-1782319548161965360 action=stop target=None
+[INFO] [1782319548.221555230] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.20s
+[INFO] [1782319548.556440366] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=0.20s wait_for_completion=False angles={'base': 59.763, 'shoulder': 71.728, 'elbow': 8.414, 'wrist': 93.439, 'wrist_rotation': 90.0}
+[INFO] [1782319550.625358104] [planning_agent]: 📥 planning request: resolve-target-015a091d96 action=resolve_target target=левия зелен обект
+[INFO] [1782319551.328338714] [planning_agent]: 📥 planning request: held-move-153a3e4f42 action=move_held_to target=None
+[INFO] [1782319552.192756674] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.80s
+[INFO] [1782319552.241393983] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=10.00s wait_for_completion=False angles={'base': 59.763, 'shoulder': 70.715, 'elbow': 7.962, 'wrist': 93.537, 'wrist_rotation': 90.0}
+[INFO] [1782319552.270717564] [planning_agent]: move_held_to:held_source_transit: waiting 10.00s movement + 1.00s settle
+[INFO] [1782319561.184676215] [planning_agent]: 📥 planning request: barge-in-stop-1782319561112122489 action=stop target=None
+[INFO] [1782319561.206814258] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.20s
+[INFO] [1782319561.413562458] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=0.20s wait_for_completion=False angles={'base': 59.763, 'shoulder': 70.715, 'elbow': 7.962, 'wrist': 93.537, 'wrist_rotation': 90.0}
+[INFO] [1782319601.231192168] [planning_agent]: 📥 planning request: resolve-target-456c45f5f4 action=resolve_target target=левия зелен обект
+[INFO] [1782319602.038613573] [planning_agent]: 📥 planning request: held-place-8f71079678 action=place_held_at target=None
+[INFO] [1782319602.873918344] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.80s
+[INFO] [1782319602.903015966] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=10.00s wait_for_completion=False angles={'base': 59.763, 'shoulder': 71.728, 'elbow': 8.414, 'wrist': 93.439, 'wrist_rotation': 90.0}
+[INFO] [1782319602.913467295] [planning_agent]: place_held:held_source_transit: waiting 10.00s movement + 1.00s settle
+[INFO] [1782319614.260375279] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.80s
+[INFO] [1782319614.295253492] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=10.00s wait_for_completion=False angles={'base': 102.889, 'shoulder': 93.213, 'elbow': 3.639, 'wrist': 133.053, 'wrist_rotation': 90.0}
+[INFO] [1782319614.307900261] [planning_agent]: place_held:held_destination_approach: waiting 10.00s movement + 1.00s settle
+[INFO] [1782319625.672187279] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.80s
+[INFO] [1782319625.696536156] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=10.00s wait_for_completion=False angles={'base': 102.889, 'shoulder': 74.995, 'elbow': 1.065, 'wrist': 128.441, 'wrist_rotation': 90.0}
+[INFO] [1782319625.702961309] [planning_agent]: place_held:held_destination_place: waiting 10.00s movement + 1.00s settle
+[INFO] [1782319637.007907783] [planning_agent]: RobotModel target set directly for joint_1_gripper; duration=0.45s
+[INFO] [1782319637.038086442] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=2.00s wait_for_completion=False angles={'gripper': 70.0}
+[INFO] [1782319639.597942746] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.80s
+[INFO] [1782319639.633864935] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=10.00s wait_for_completion=False angles={'base': 102.889, 'shoulder': 93.213, 'elbow': 3.639, 'wrist': 133.053, 'wrist_rotation': 90.0}
+[INFO] [1782319639.642925180] [planning_agent]: place_held:held_destination_retreat: waiting 10.00s movement + 1.00s settle
+[INFO] [1782319696.032280554] [planning_agent]: 📥 planning request: barge-in-stop-1782319696008398649 action=stop target=None
+[INFO] [1782319696.052300297] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.20s
+[INFO] [1782319696.305970797] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=0.20s wait_for_completion=False angles={'base': 102.889, 'shoulder': 93.213, 'elbow': 3.639, 'wrist': 133.053, 'wrist_rotation': 90.0}
+[INFO] [1782319755.172831412] [planning_agent]: 📥 planning request: barge-in-stop-1782319755145658016 action=stop target=None
+[INFO] [1782319755.176424477] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.20s
+[INFO] [1782319755.201237343] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=0.20s wait_for_completion=False angles={'base': 102.889, 'shoulder': 93.213, 'elbow': 3.639, 'wrist': 133.053, 'wrist_rotation': 90.0}
+[INFO] [1782319810.356990229] [planning_agent]: 📥 planning request: joint-status-92e5c77eb1 action=joint_status target=None
+[INFO] [1782319947.688147161] [planning_agent]: 📥 planning request: pose-status-804cfe1d3c action=pose_status target=home
+[INFO] [1782319947.794642878] [planning_agent]: 📥 planning request: home-ea4b8c8bbe action=home target=home
+[INFO] [1782319947.862030946] [planning_agent]: RobotModel target set directly for joint_1_gripper; duration=0.45s
+[INFO] [1782319948.001393205] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.80s
+[INFO] [1782319959.912939681] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=10.00s wait_for_completion=True angles={'base': 92.0, 'shoulder': 141.6, 'elbow': 0.0, 'wrist': 180.0, 'wrist_rotation': 90.0, 'gripper': 70.0}
+[INFO] [1782319959.984931067] [planning_agent]: 📥 planning request: scan_pose-fab4739967 action=scan_pose target=scan_pose
+[INFO] [1782319960.045824065] [planning_agent]: RobotModel target set directly for joint_1_gripper; duration=0.45s
+[INFO] [1782319960.094572682] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.80s
+[INFO] [1782319972.001879111] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=10.00s wait_for_completion=True angles={'base': 0.0, 'shoulder': 31.5, 'elbow': 90.4, 'wrist': 180.0, 'wrist_rotation': 90.0, 'gripper': 70.0}
+[INFO] [1782319979.886761472] [planning_agent]: 📥 planning request: home-c6e1e33af9 action=home target=home
+[INFO] [1782319979.933735935] [planning_agent]: RobotModel target set directly for joint_1_gripper; duration=0.45s
+[INFO] [1782319980.142468262] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.80s
+[INFO] [1782319986.944942078] [planning_agent]: 📥 planning request: barge-in-stop-1782319986880339546 action=stop target=None
+[INFO] [1782319986.960053702] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.20s
+[INFO] [1782319992.052367045] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=10.00s wait_for_completion=True angles={'base': 92.0, 'shoulder': 141.6, 'elbow': 0.0, 'wrist': 180.0, 'wrist_rotation': 90.0, 'gripper': 70.0}
+[INFO] [1782319992.069178289] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=0.20s wait_for_completion=False angles={'base': 92.0, 'shoulder': 141.6, 'elbow': 0.0, 'wrist': 180.0, 'wrist_rotation': 90.0}
+[INFO] [1782320019.928561564] [planning_agent]: 📥 planning request: resolve-target-11601d5152 action=resolve_target target=син обект
+[INFO] [1782320022.793899247] [planning_agent]: 📥 planning request: resolve-target-c36d15f516 action=resolve_target target=син обект
+[INFO] [1782320023.169256736] [planning_agent]: 📥 planning request: plan-dbe253e9d3 action=approach target=blue_1
+[INFO] [1782320023.262359845] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.80s
+[INFO] [1782320023.275358566] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=10.00s wait_for_completion=False angles={'base': 61.418, 'shoulder': 76.67, 'elbow': 3.88, 'wrist': 113.718, 'wrist_rotation': 90.0}
+[INFO] [1782320023.283462806] [planning_agent]: approach: waiting 10.00s movement + 1.00s settle
+[INFO] [1782320024.502877515] [planning_agent]: 📥 planning request: barge-in-stop-1782320024456701847 action=stop target=None
+[INFO] [1782320024.523964423] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.20s
+[INFO] [1782320024.549008720] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=0.20s wait_for_completion=False angles={'base': 61.418, 'shoulder': 76.67, 'elbow': 3.88, 'wrist': 113.718, 'wrist_rotation': 90.0}
+[INFO] [1782320032.084987614] [planning_agent]: 📥 planning request: resolve-target-6afe4bbb4b action=resolve_target target=син обект
+[INFO] [1782320032.375977279] [planning_agent]: 📥 planning request: plan-5bea8cec23 action=approach target=blue_1
+[INFO] [1782320033.023023012] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.80s
+[INFO] [1782320033.111895776] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=10.00s wait_for_completion=False angles={'base': 61.418, 'shoulder': 76.67, 'elbow': 3.88, 'wrist': 113.718, 'wrist_rotation': 90.0}
+[INFO] [1782320033.153443009] [planning_agent]: approach: waiting 10.00s movement + 1.00s settle
+[INFO] [1782320055.343718844] [planning_agent]: 📥 planning request: resolve-target-acc8e9815c action=resolve_target target=син обект
+[INFO] [1782320055.754782857] [planning_agent]: 📥 planning request: plan-fa76780c23 action=pick target=blue_1
+[INFO] [1782320055.926486516] [planning_agent]: pick:approach_3cm target=(0.3069,-0.1346,0.0210) reached=(0.3069,-0.1346,0.0210) error=0.000003m joints_deg={'joint_6_base': -23.687560975609756, 'joint_5_shoulder': -38.56621621621622, 'joint_4_elbow': -78.7104, 'joint_3_wrist_pitch': 10.723170731707317, 'joint_2_wrist_roll': 0.0}
+[INFO] [1782320056.019299053] [planning_agent]: pick:grasp_center target=(0.3069,-0.1346,-0.0090) reached=(0.3069,-0.1346,-0.0090) error=0.000002m joints_deg={'joint_6_base': -23.687560975609756, 'joint_5_shoulder': -47.41512096774194, 'joint_4_elbow': -78.6352, 'joint_3_wrist_pitch': 1.950000000000004, 'joint_2_wrist_roll': 0.0}
+[INFO] [1782320056.114971861] [planning_agent]: pick:retreat_3cm target=(0.3069,-0.1346,0.0210) reached=(0.3069,-0.1346,0.0210) error=0.000003m joints_deg={'joint_6_base': -23.687560975609756, 'joint_5_shoulder': -38.05388513513514, 'joint_4_elbow': -81.69040000000001, 'joint_3_wrist_pitch': 6.2551829268292645, 'joint_2_wrist_roll': 0.0}
+[INFO] [1782320056.167295305] [planning_agent]: RobotModel target set directly for joint_1_gripper; duration=0.45s
+[INFO] [1782320056.182797163] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=2.00s wait_for_completion=False angles={'gripper': 70.0}
+[INFO] [1782320058.754267021] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.80s
+[INFO] [1782320058.804465104] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=10.00s wait_for_completion=False angles={'base': 61.418, 'shoulder': 62.932, 'elbow': 6.487, 'wrist': 105.524, 'wrist_rotation': 90.0}
+[INFO] [1782320058.843278591] [planning_agent]: pick:approach_3cm: waiting 10.00s movement + 1.00s settle
+[INFO] [1782320070.172768516] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.80s
+[INFO] [1782320070.218852135] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=10.00s wait_for_completion=False angles={'base': 61.418, 'shoulder': 57.369, 'elbow': 6.581, 'wrist': 95.932, 'wrist_rotation': 90.0}
+[INFO] [1782320070.227556440] [planning_agent]: pick:grasp_center: waiting 10.00s movement + 1.00s settle
+[INFO] [1782320081.578123095] [planning_agent]: RobotModel target set directly for joint_1_gripper; duration=0.45s
+[INFO] [1782320081.646867416] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=2.00s wait_for_completion=False angles={'gripper': 120.0}
+[INFO] [1782320084.185301512] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.80s
+[INFO] [1782320084.202017034] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=10.00s wait_for_completion=False angles={'base': 61.418, 'shoulder': 63.269, 'elbow': 2.762, 'wrist': 100.639, 'wrist_rotation': 90.0}
+[INFO] [1782320084.210261782] [planning_agent]: pick:retreat_3cm: waiting 10.00s movement + 1.00s settle
+[INFO] [1782320117.821987039] [planning_agent]: 📥 planning request: resolve-target-09f28fcc9d action=resolve_target target=левия зелен обект
+[INFO] [1782320118.375793683] [planning_agent]: 📥 planning request: held-place-05ca15a76d action=place_held_at target=None
+[INFO] [1782320118.775496600] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.80s
+[INFO] [1782320118.786944728] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=10.00s wait_for_completion=False angles={'base': 61.418, 'shoulder': 80.189, 'elbow': 3.752, 'wrist': 113.496, 'wrist_rotation': 90.0}
+[INFO] [1782320118.837150372] [planning_agent]: place_held:held_source_transit: waiting 10.00s movement + 1.00s settle
+[INFO] [1782320130.050413751] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.80s
+[INFO] [1782320130.059987164] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=10.00s wait_for_completion=False angles={'base': 135.427, 'shoulder': 87.3, 'elbow': 3.286, 'wrist': 126.534, 'wrist_rotation': 90.0}
+[INFO] [1782320130.089839005] [planning_agent]: place_held:held_destination_approach: waiting 10.00s movement + 1.00s settle
+[INFO] [1782320141.134829530] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.80s
+[INFO] [1782320141.147326548] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=10.00s wait_for_completion=False angles={'base': 135.427, 'shoulder': 69.672, 'elbow': 2.391, 'wrist': 120.756, 'wrist_rotation': 90.0}
+[INFO] [1782320141.152510989] [planning_agent]: place_held:held_destination_place: waiting 10.00s movement + 1.00s settle
+[INFO] [1782320152.502871303] [planning_agent]: RobotModel target set directly for joint_1_gripper; duration=0.45s
+[INFO] [1782320152.528018451] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=2.00s wait_for_completion=False angles={'gripper': 70.0}
+[INFO] [1782320155.085896011] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.80s
+[INFO] [1782320155.101673509] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=10.00s wait_for_completion=False angles={'base': 135.427, 'shoulder': 87.3, 'elbow': 3.286, 'wrist': 126.534, 'wrist_rotation': 90.0}
+[INFO] [1782320155.122693431] [planning_agent]: place_held:held_destination_retreat: waiting 10.00s movement + 1.00s settle
+[INFO] [1782320283.985610251] [planning_agent]: 📥 planning request: plan-bbf36532e8 action=home target=home
+[INFO] [1782320284.036552258] [planning_agent]: RobotModel target set directly for joint_1_gripper; duration=0.45s
+[INFO] [1782320284.087700634] [planning_agent]: RobotModel target set directly for joint_6_base, joint_5_shoulder, joint_4_elbow, joint_3_wrist_pitch, joint_2_wrist_roll; duration=0.80s
+[INFO] [1782320295.987386941] [planning_agent]: physical arm command sent to 192.168.188.144:9090; duration=10.00s wait_for_completion=True angles={'base': 92.0, 'shoulder': 141.6, 'elbow': 0.0, 'wrist': 180.0, 'wrist_rotation': 90.0, 'gripper': 70.0}

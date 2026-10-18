@@ -1,0 +1,21 @@
+{
+  "robot_state": "RETURNING_HOME",
+  "busy": true,
+  "paused": false,
+  "stop_requested": false,
+  "current_task": {
+    "action": "home",
+    "requested_at": 1780998557.0269692,
+    "original_request": {
+      "action": "home"
+    }
+  },
+  "current_step": "MOVE_POINT_0",
+  "selected_object_id": null,
+  "held_object_id": null,
+  "destination_object_id": null,
+  "original_object_position": null,
+  "last_error": null,
+  "last_motion_status": null,
+  "timestamp": 1780998557.0290768
+}

@@ -1,0 +1,19 @@
+[5.547s] Invoking command in '/workspace/build/robot_system': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/workspace/build/robot_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/robot_system/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/build/robot_system/build --no-deps symlink_data
+[7.961s] running develop
+[9.862s] running egg_info
+[10.017s] writing robot_system.egg-info/PKG-INFO
+[10.018s] writing dependency_links to robot_system.egg-info/dependency_links.txt
+[10.019s] writing entry points to robot_system.egg-info/entry_points.txt
+[10.020s] writing requirements to robot_system.egg-info/requires.txt
+[10.022s] writing top-level names to robot_system.egg-info/top_level.txt
+[10.440s] reading manifest file 'robot_system.egg-info/SOURCES.txt'
+[10.444s] writing manifest file 'robot_system.egg-info/SOURCES.txt'
+[10.641s] running build_ext
+[10.642s] Creating /workspace/install/robot_system/lib/python3.12/site-packages/robot-system.egg-link (link to .)
+[10.646s] Installing task_coordinator script to /workspace/install/robot_system/lib/robot_system
+[10.647s] Installing text_agent script to /workspace/install/robot_system/lib/robot_system
+[10.650s] Installing text_conversation script to /workspace/install/robot_system/lib/robot_system
+[10.651s] 
+[10.652s] Installed /workspace/build/robot_system
+[10.653s] running symlink_data
+[10.814s] Invoked command in '/workspace/build/robot_system' returned '0': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/workspace/build/robot_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/robot_system/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/build/robot_system/build --no-deps symlink_data

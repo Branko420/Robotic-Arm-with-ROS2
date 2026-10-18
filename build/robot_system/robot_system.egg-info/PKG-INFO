@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: robot-system
+Version: 0.3.0
+Summary: Maintainable realtime robotic-arm agent system
+Maintainer: Branimir Kolev
+Maintainer-email: kolevb780@gmail.com
+License: MIT

@@ -1,0 +1,20 @@
+[5.851s] Invoking command in '/workspace/build/robot_system': PS1=(arm_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/workspace/build/robot_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/robot_system/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(arm_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/build/robot_system/build --no-deps symlink_data
+[8.343s] running develop
+[10.128s] running egg_info
+[10.321s] writing robot_system.egg-info/PKG-INFO
+[10.325s] writing dependency_links to robot_system.egg-info/dependency_links.txt
+[10.328s] writing entry points to robot_system.egg-info/entry_points.txt
+[10.332s] writing requirements to robot_system.egg-info/requires.txt
+[10.332s] writing top-level names to robot_system.egg-info/top_level.txt
+[10.861s] reading manifest file 'robot_system.egg-info/SOURCES.txt'
+[10.868s] writing manifest file 'robot_system.egg-info/SOURCES.txt'
+[11.150s] running build_ext
+[11.154s] Creating /workspace/install/robot_system/lib/python3.12/site-packages/robot-system.egg-link (link to .)
+[11.158s] Installing realtime_agent script to /workspace/install/robot_system/lib/robot_system
+[11.166s] Installing task_coordinator script to /workspace/install/robot_system/lib/robot_system
+[11.169s] Installing text_agent script to /workspace/install/robot_system/lib/robot_system
+[11.172s] Installing text_conversation script to /workspace/install/robot_system/lib/robot_system
+[11.173s] 
+[11.173s] Installed /workspace/build/robot_system
+[11.177s] running symlink_data
+[11.407s] Invoked command in '/workspace/build/robot_system' returned '0': PS1=(arm_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/workspace/build/robot_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/robot_system/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(arm_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/build/robot_system/build --no-deps symlink_data

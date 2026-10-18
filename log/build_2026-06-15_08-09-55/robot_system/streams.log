@@ -1,0 +1,24 @@
+[6.101s] Invoking command in '/workspace/build/robot_system': PYTHONPATH=/workspace/build/robot_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/robot_system/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/build/robot_system/build --no-deps symlink_data
+[9.019s] running develop
+[10.823s] running egg_info
+[11.008s] writing robot_system.egg-info/PKG-INFO
+[11.012s] writing dependency_links to robot_system.egg-info/dependency_links.txt
+[11.013s] writing entry points to robot_system.egg-info/entry_points.txt
+[11.014s] writing requirements to robot_system.egg-info/requires.txt
+[11.017s] writing top-level names to robot_system.egg-info/top_level.txt
+[11.375s] reading manifest file 'robot_system.egg-info/SOURCES.txt'
+[11.388s] writing manifest file 'robot_system.egg-info/SOURCES.txt'
+[11.587s] running build_ext
+[11.588s] Creating /workspace/install/robot_system/lib/python3.12/site-packages/robot-system.egg-link (link to .)
+[11.590s] Installing arm_executor script to /workspace/install/robot_system/lib/robot_system
+[11.592s] Installing moveit_validator script to /workspace/install/robot_system/lib/robot_system
+[11.593s] Installing realtime_agent script to /workspace/install/robot_system/lib/robot_system
+[11.594s] Installing rgb_workspace_classifier script to /workspace/install/robot_system/lib/robot_system
+[11.597s] Installing safety_supervisor script to /workspace/install/robot_system/lib/robot_system
+[11.600s] Installing task_coordinator script to /workspace/install/robot_system/lib/robot_system
+[11.601s] Installing workspace_vision script to /workspace/install/robot_system/lib/robot_system
+[11.601s] Installing world_model script to /workspace/install/robot_system/lib/robot_system
+[11.610s] 
+[11.611s] Installed /workspace/build/robot_system
+[11.615s] running symlink_data
+[11.855s] Invoked command in '/workspace/build/robot_system' returned '0': PYTHONPATH=/workspace/build/robot_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/robot_system/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/build/robot_system/build --no-deps symlink_data

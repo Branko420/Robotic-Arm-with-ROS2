@@ -1,0 +1,6 @@
+numpy
+openai-agents
+python-dotenv
+redis
+setuptools
+sounddevice

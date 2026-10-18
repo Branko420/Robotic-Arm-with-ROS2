@@ -1,0 +1,27 @@
+{
+  "home": {
+    "type": "servo_pose",
+    "purpose": "normal_home",
+    "angles": {
+      "base": 92.0,
+      "shoulder": 141.6,
+      "elbow": 0.0,
+      "wrist": 180.0,
+      "wrist_rotation": 90.0,
+      "gripper": 70.0
+    }
+  },
+  "point_0_carry": null,
+  "scan_pose": {
+    "type": "servo_pose",
+    "purpose": "camera_workspace_scan",
+    "angles": {
+      "base": 0.0,
+      "shoulder": 31.5,
+      "elbow": 90.4,
+      "wrist": 180.0,
+      "wrist_rotation": 90.0,
+      "gripper": 70.0
+    }
+  }
+}

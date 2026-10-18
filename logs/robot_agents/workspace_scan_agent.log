@@ -1,0 +1,14 @@
+[INFO] [1783259314.273795838] [workspace_scan_agent]: ✅ workspace_scan_agent ready; geometry moved to agent_tools
+[INFO] [1783259314.275446965] [workspace_scan_agent]: Point cloud: /digital_twin/live_cloud_rgb
+[INFO] [1783259314.277927361] [workspace_scan_agent]: Output frame: base_link
+[INFO] [1783259314.279803514] [workspace_scan_agent]: Maximum object distance from base: 0.400 m
+[INFO] [1783259339.669653776] [workspace_scan_agent]: ✅ cloud received; frame=base_link; fields=['rgb', 'x', 'y', 'z']
+[INFO] [1783259416.982364475] [workspace_scan_agent]: Cleared previous workspace objects and stale target corrections before scan request=workspace-scan-2691ef375b; deleted_keys=2
+[INFO] [1783259417.146836958] [workspace_scan_agent]: ✅ 4 object centres; ignored far candidate points=197; point_blue_object_1=(0.084,0.271,-0.008), point_blue_object_2=(0.311,0.177,-0.016), point_green_object_1=(0.315,0.017,-0.010), point_green_object_2=(0.297,-0.149,-0.010)
+[INFO] [1783259417.151405055] [workspace_scan_agent]: Rejected 1 components: TOO_LARGE_XY
+[INFO] [1783259462.732399272] [workspace_scan_agent]: Cleared previous workspace objects and stale target corrections before scan request=workspace-scan-a275f31df1; deleted_keys=1
+[INFO] [1783259462.815664734] [workspace_scan_agent]: ✅ 3 object centres; ignored far candidate points=263; point_green_object_1=(0.315,0.018,-0.010), point_green_object_2=(0.296,-0.149,-0.010), point_blue_object_1=(0.311,0.176,-0.016)
+[INFO] [1783259462.817126400] [workspace_scan_agent]: Rejected 1 components: TOO_LARGE_XY
+[INFO] [1783259836.321858842] [workspace_scan_agent]: Cleared previous workspace objects and stale target corrections before scan request=workspace-scan-969a7631b5; deleted_keys=0
+[INFO] [1783259836.355589000] [workspace_scan_agent]: ✅ 3 object centres; ignored far candidate points=278; point_green_object_1=(0.324,0.031,-0.012), point_green_object_2=(0.294,-0.146,-0.010), point_blue_object_1=(0.310,0.176,-0.016)
+[INFO] [1783259836.359698334] [workspace_scan_agent]: Rejected 1 components: TOO_LARGE_XY

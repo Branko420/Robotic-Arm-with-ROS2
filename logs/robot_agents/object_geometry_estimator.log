@@ -1,0 +1,55 @@
+[INFO] [1781775989.337206001] [object_geometry_estimator]: ✅ Generic ObjectGeometryEstimator started
+[INFO] [1781775989.344983599] [object_geometry_estimator]: AI classifier detects objects. This node makes 3D centers + dimensions + point labels.
+[INFO] [1781775989.355469681] [object_geometry_estimator]: 2D input: /digital_twin/objects_2d_json
+[INFO] [1781775989.363375542] [object_geometry_estimator]: Cloud input: /digital_twin/live_cloud_rgb
+[INFO] [1781775989.372167612] [object_geometry_estimator]: Objects output: /digital_twin/objects_json
+[INFO] [1781775989.379748404] [object_geometry_estimator]: Motion points output: /digital_twin/motion_points_json
+[INFO] [1781775989.394129646] [object_geometry_estimator]: RViz markers: /digital_twin/motion_point_markers
+[INFO] [1781775989.406312743] [object_geometry_estimator]: Target frame: base_link, use_tf=True
+[WARN] [1781776017.317906963] [object_geometry_estimator]: /digital_twin/live_cloud_rgb is unorganized height=1. Need organized cloud to crop AI bboxes.
+[WARN] [1781776023.496346864] [object_geometry_estimator]: /digital_twin/live_cloud_rgb is unorganized height=1. Need organized cloud to crop AI bboxes.
+[WARN] [1781776033.683257431] [object_geometry_estimator]: /digital_twin/live_cloud_rgb is unorganized height=1. Need organized cloud to crop AI bboxes.
+[WARN] [1781776041.802405187] [object_geometry_estimator]: /digital_twin/live_cloud_rgb is unorganized height=1. Need organized cloud to crop AI bboxes.
+[WARN] [1781776052.984992795] [object_geometry_estimator]: /digital_twin/live_cloud_rgb is unorganized height=1. Need organized cloud to crop AI bboxes.
+[WARN] [1781776056.163644861] [object_geometry_estimator]: /digital_twin/live_cloud_rgb is unorganized height=1. Need organized cloud to crop AI bboxes.
+[WARN] [1781776064.916978170] [object_geometry_estimator]: /digital_twin/live_cloud_rgb is unorganized height=1. Need organized cloud to crop AI bboxes.
+[WARN] [1781776070.292491480] [object_geometry_estimator]: /digital_twin/live_cloud_rgb is unorganized height=1. Need organized cloud to crop AI bboxes.
+[WARN] [1781776079.395898793] [object_geometry_estimator]: /digital_twin/live_cloud_rgb is unorganized height=1. Need organized cloud to crop AI bboxes.
+[WARN] [1781776089.551357437] [object_geometry_estimator]: /digital_twin/live_cloud_rgb is unorganized height=1. Need organized cloud to crop AI bboxes.
+[WARN] [1781776092.899372041] [object_geometry_estimator]: /digital_twin/live_cloud_rgb is unorganized height=1. Need organized cloud to crop AI bboxes.
+[WARN] [1781776101.947504736] [object_geometry_estimator]: /digital_twin/live_cloud_rgb is unorganized height=1. Need organized cloud to crop AI bboxes.
+[WARN] [1781776106.577534570] [object_geometry_estimator]: /digital_twin/live_cloud_rgb is unorganized height=1. Need organized cloud to crop AI bboxes.
+[WARN] [1781776110.282085599] [object_geometry_estimator]: /digital_twin/live_cloud_rgb is unorganized height=1. Need organized cloud to crop AI bboxes.
+[WARN] [1781776120.197290367] [object_geometry_estimator]: /digital_twin/live_cloud_rgb is unorganized height=1. Need organized cloud to crop AI bboxes.
+[WARN] [1781776123.460659458] [object_geometry_estimator]: /digital_twin/live_cloud_rgb is unorganized height=1. Need organized cloud to crop AI bboxes.
+[WARN] [1781776128.834192243] [object_geometry_estimator]: /digital_twin/live_cloud_rgb is unorganized height=1. Need organized cloud to crop AI bboxes.
+[WARN] [1781776135.394086481] [object_geometry_estimator]: /digital_twin/live_cloud_rgb is unorganized height=1. Need organized cloud to crop AI bboxes.
+[WARN] [1781776139.702995495] [object_geometry_estimator]: /digital_twin/live_cloud_rgb is unorganized height=1. Need organized cloud to crop AI bboxes.
+[WARN] [1781776143.161907267] [object_geometry_estimator]: /digital_twin/live_cloud_rgb is unorganized height=1. Need organized cloud to crop AI bboxes.
+[WARN] [1781776149.088606032] [object_geometry_estimator]: /digital_twin/live_cloud_rgb is unorganized height=1. Need organized cloud to crop AI bboxes.
+[WARN] [1781776157.278499895] [object_geometry_estimator]: /digital_twin/live_cloud_rgb is unorganized height=1. Need organized cloud to crop AI bboxes.
+[WARN] [1781776173.195376081] [object_geometry_estimator]: /digital_twin/live_cloud_rgb is unorganized height=1. Need organized cloud to crop AI bboxes.
+[WARN] [1781776184.405948349] [object_geometry_estimator]: /digital_twin/live_cloud_rgb is unorganized height=1. Need organized cloud to crop AI bboxes.
+[WARN] [1781776188.468845948] [object_geometry_estimator]: /digital_twin/live_cloud_rgb is unorganized height=1. Need organized cloud to crop AI bboxes.
+[WARN] [1781776191.843018206] [object_geometry_estimator]: /digital_twin/live_cloud_rgb is unorganized height=1. Need organized cloud to crop AI bboxes.
+[WARN] [1781776195.798805681] [object_geometry_estimator]: /digital_twin/live_cloud_rgb is unorganized height=1. Need organized cloud to crop AI bboxes.
+[WARN] [1781776199.946806744] [object_geometry_estimator]: /digital_twin/live_cloud_rgb is unorganized height=1. Need organized cloud to crop AI bboxes.
+[WARN] [1781776210.448617776] [object_geometry_estimator]: /digital_twin/live_cloud_rgb is unorganized height=1. Need organized cloud to crop AI bboxes.
+[WARN] [1781776213.833108712] [object_geometry_estimator]: /digital_twin/live_cloud_rgb is unorganized height=1. Need organized cloud to crop AI bboxes.
+[WARN] [1781776227.700723733] [object_geometry_estimator]: /digital_twin/live_cloud_rgb is unorganized height=1. Need organized cloud to crop AI bboxes.
+[WARN] [1781776231.092533749] [object_geometry_estimator]: /digital_twin/live_cloud_rgb is unorganized height=1. Need organized cloud to crop AI bboxes.
+[WARN] [1781776234.600772164] [object_geometry_estimator]: /digital_twin/live_cloud_rgb is unorganized height=1. Need organized cloud to crop AI bboxes.
+[WARN] [1781776237.704944736] [object_geometry_estimator]: /digital_twin/live_cloud_rgb is unorganized height=1. Need organized cloud to crop AI bboxes.
+[WARN] [1781776241.690484970] [object_geometry_estimator]: /digital_twin/live_cloud_rgb is unorganized height=1. Need organized cloud to crop AI bboxes.
+[WARN] [1781776244.955362057] [object_geometry_estimator]: /digital_twin/live_cloud_rgb is unorganized height=1. Need organized cloud to crop AI bboxes.
+[WARN] [1781776248.582028500] [object_geometry_estimator]: /digital_twin/live_cloud_rgb is unorganized height=1. Need organized cloud to crop AI bboxes.
+[WARN] [1781776251.875912115] [object_geometry_estimator]: /digital_twin/live_cloud_rgb is unorganized height=1. Need organized cloud to crop AI bboxes.
+[WARN] [1781776256.142033003] [object_geometry_estimator]: /digital_twin/live_cloud_rgb is unorganized height=1. Need organized cloud to crop AI bboxes.
+[WARN] [1781776259.357986875] [object_geometry_estimator]: /digital_twin/live_cloud_rgb is unorganized height=1. Need organized cloud to crop AI bboxes.
+[WARN] [1781776270.341796912] [object_geometry_estimator]: /digital_twin/live_cloud_rgb is unorganized height=1. Need organized cloud to crop AI bboxes.
+[WARN] [1781776276.722984761] [object_geometry_estimator]: /digital_twin/live_cloud_rgb is unorganized height=1. Need organized cloud to crop AI bboxes.
+[WARN] [1781776283.652355257] [object_geometry_estimator]: /digital_twin/live_cloud_rgb is unorganized height=1. Need organized cloud to crop AI bboxes.
+[WARN] [1781776289.576554586] [object_geometry_estimator]: /digital_twin/live_cloud_rgb is unorganized height=1. Need organized cloud to crop AI bboxes.
+[WARN] [1781776294.113882845] [object_geometry_estimator]: /digital_twin/live_cloud_rgb is unorganized height=1. Need organized cloud to crop AI bboxes.
+[WARN] [1781776297.780276678] [object_geometry_estimator]: /digital_twin/live_cloud_rgb is unorganized height=1. Need organized cloud to crop AI bboxes.
+[WARN] [1781776301.266954131] [object_geometry_estimator]: /digital_twin/live_cloud_rgb is unorganized height=1. Need organized cloud to crop AI bboxes.

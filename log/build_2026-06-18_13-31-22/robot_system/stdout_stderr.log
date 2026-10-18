@@ -1,0 +1,25 @@
+running develop
+running egg_info
+writing robot_system.egg-info/PKG-INFO
+writing dependency_links to robot_system.egg-info/dependency_links.txt
+writing entry points to robot_system.egg-info/entry_points.txt
+writing requirements to robot_system.egg-info/requires.txt
+writing top-level names to robot_system.egg-info/top_level.txt
+reading manifest file 'robot_system.egg-info/SOURCES.txt'
+writing manifest file 'robot_system.egg-info/SOURCES.txt'
+running build_ext
+Creating /workspace/install/robot_system/lib/python3.12/site-packages/robot-system.egg-link (link to .)
+Installing ai_workspace_classifier script to /workspace/install/robot_system/lib/robot_system
+Installing arm_executor script to /workspace/install/robot_system/lib/robot_system
+Installing go_to_point_geometric_ik_udp script to /workspace/install/robot_system/lib/robot_system
+Installing moveit_validator script to /workspace/install/robot_system/lib/robot_system
+Installing object_geometry_estimator script to /workspace/install/robot_system/lib/robot_system
+Installing object_planning_agent script to /workspace/install/robot_system/lib/robot_system
+Installing realtime_agent script to /workspace/install/robot_system/lib/robot_system
+Installing text_agent script to /workspace/install/robot_system/lib/robot_system
+Installing text_conversation script to /workspace/install/robot_system/lib/robot_system
+Installing workspace_point_builder script to /workspace/install/robot_system/lib/robot_system
+Installing workspace_scan_agent script to /workspace/install/robot_system/lib/robot_system
+
+Installed /workspace/build/robot_system
+running symlink_data

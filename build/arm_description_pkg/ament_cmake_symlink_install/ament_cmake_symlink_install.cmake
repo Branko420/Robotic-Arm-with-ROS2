@@ -315,8 +315,8 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(DIRECTORY "urdf" "DESTINATION" "share/arm_description_pkg")
-ament_cmake_symlink_install_directory("/workspace/src/arm_description_pkg" DIRECTORY "urdf" "DESTINATION" "share/arm_description_pkg")
+# install(DIRECTORY "launch" "rviz" "urdf" "DESTINATION" "share/arm_description_pkg")
+ament_cmake_symlink_install_directory("/workspace/src/arm_description_pkg" DIRECTORY "launch" "rviz" "urdf" "DESTINATION" "share/arm_description_pkg")
 
 # install(FILES "/workspace/build/arm_description_pkg/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/arm_description_pkg" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/workspace/src/arm_description_pkg" FILES "/workspace/build/arm_description_pkg/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/arm_description_pkg" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

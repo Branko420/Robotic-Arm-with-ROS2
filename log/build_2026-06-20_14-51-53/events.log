@@ -1,0 +1,192 @@
+[0.000000] (-) TimerEvent: {}
+[0.003922] (-) JobUnselected: {'identifier': 'arm_description_pkg'}
+[0.004889] (-) JobUnselected: {'identifier': 'arm_moveit_config'}
+[0.005141] (-) JobUnselected: {'identifier': 'deptrum-ros-driver-aurora930'}
+[0.005258] (-) JobUnselected: {'identifier': 'pymoveit2'}
+[0.005373] (-) JobUnselected: {'identifier': 'servo_pkg'}
+[0.005510] (robot_system) JobQueued: {'identifier': 'robot_system', 'dependencies': OrderedDict()}
+[0.005682] (robot_system) JobStarted: {'identifier': 'robot_system'}
+[0.097174] (-) TimerEvent: {}
+[0.202365] (-) TimerEvent: {}
+[0.305682] (-) TimerEvent: {}
+[0.407003] (-) TimerEvent: {}
+[0.511315] (-) TimerEvent: {}
+[0.612372] (-) TimerEvent: {}
+[0.714101] (-) TimerEvent: {}
+[0.817684] (-) TimerEvent: {}
+[0.919245] (-) TimerEvent: {}
+[1.019894] (-) TimerEvent: {}
+[1.124965] (-) TimerEvent: {}
+[1.228996] (-) TimerEvent: {}
+[1.329690] (-) TimerEvent: {}
+[1.433848] (-) TimerEvent: {}
+[1.535435] (-) TimerEvent: {}
+[1.638302] (-) TimerEvent: {}
+[1.741683] (-) TimerEvent: {}
+[1.843012] (-) TimerEvent: {}
+[1.945552] (-) TimerEvent: {}
+[2.048680] (-) TimerEvent: {}
+[2.149943] (-) TimerEvent: {}
+[2.254322] (-) TimerEvent: {}
+[2.361656] (-) TimerEvent: {}
+[2.466734] (-) TimerEvent: {}
+[2.580142] (-) TimerEvent: {}
+[2.681770] (-) TimerEvent: {}
+[2.784686] (-) TimerEvent: {}
+[2.886350] (-) TimerEvent: {}
+[2.989800] (-) TimerEvent: {}
+[3.091387] (-) TimerEvent: {}
+[3.193046] (-) TimerEvent: {}
+[3.294745] (-) TimerEvent: {}
+[3.397373] (-) TimerEvent: {}
+[3.499151] (-) TimerEvent: {}
+[3.603728] (-) TimerEvent: {}
+[3.704473] (-) TimerEvent: {}
+[3.806031] (-) TimerEvent: {}
+[3.910009] (-) TimerEvent: {}
+[4.011655] (-) TimerEvent: {}
+[4.115699] (-) TimerEvent: {}
+[4.217343] (-) TimerEvent: {}
+[4.318959] (-) TimerEvent: {}
+[4.420526] (-) TimerEvent: {}
+[4.523264] (-) TimerEvent: {}
+[4.626750] (-) TimerEvent: {}
+[4.730193] (-) TimerEvent: {}
+[4.830965] (-) TimerEvent: {}
+[4.932496] (-) TimerEvent: {}
+[5.033354] (-) TimerEvent: {}
+[5.135016] (-) TimerEvent: {}
+[5.236399] (-) TimerEvent: {}
+[5.339277] (-) TimerEvent: {}
+[5.442511] (-) TimerEvent: {}
+[5.545697] (-) TimerEvent: {}
+[5.646485] (-) TimerEvent: {}
+[5.747307] (-) TimerEvent: {}
+[5.850274] (-) TimerEvent: {}
+[5.957007] (-) TimerEvent: {}
+[6.060102] (-) TimerEvent: {}
+[6.162662] (-) TimerEvent: {}
+[6.266090] (-) TimerEvent: {}
+[6.367885] (-) TimerEvent: {}
+[6.471294] (-) TimerEvent: {}
+[6.574720] (-) TimerEvent: {}
+[6.676278] (-) TimerEvent: {}
+[6.777499] (-) TimerEvent: {}
+[6.879017] (-) TimerEvent: {}
+[6.980940] (-) TimerEvent: {}
+[7.084879] (-) TimerEvent: {}
+[7.185647] (-) TimerEvent: {}
+[7.286783] (-) TimerEvent: {}
+[7.389676] (-) TimerEvent: {}
+[7.490692] (-) TimerEvent: {}
+[7.591438] (-) TimerEvent: {}
+[7.695139] (-) TimerEvent: {}
+[7.797308] (-) TimerEvent: {}
+[7.901748] (-) TimerEvent: {}
+[8.004168] (-) TimerEvent: {}
+[8.106002] (-) TimerEvent: {}
+[8.206859] (-) TimerEvent: {}
+[8.307656] (-) TimerEvent: {}
+[8.408412] (-) TimerEvent: {}
+[8.509954] (-) TimerEvent: {}
+[8.610902] (-) TimerEvent: {}
+[8.717877] (-) TimerEvent: {}
+[8.822022] (-) TimerEvent: {}
+[8.926086] (-) TimerEvent: {}
+[9.017451] (robot_system) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/workspace/build/robot_system/build', '--no-deps', 'symlink_data'], 'cwd': '/workspace/build/robot_system', 'env': {'VNCDESKTOP': '9eb3f769ab4a:1 (ubuntu)', 'XDG_ACTIVATION_TOKEN': 'caja-252-9eb3f769ab4a-terminator-1_TIME537766011', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'QT_SCALE_FACTOR': '1', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'ubuntu', 'SUPERVISOR_GROUP_NAME': 'vnc', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': '9eb3f769ab4a', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/workspace/install/deptrum-ros-driver-aurora930/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/home/ubuntu/Desktop/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'PS1': '(arm_env) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$', 'ROS_IP': '192.168.188.159', 'LC_CTYPE': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/tmp/dbus-Ina21mfMro,guid=0abc129793611bcc5cf4145a6a36a8bf', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '593', 'GNOME_KEYRING_CONTROL': '/home/ubuntu/.cache/keyring-CWF3Q3', 'COLCON_PREFIX_PATH': '/workspace/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'INSIDE_CAJA_PYTHON': '', 'PATH': '/workspace/arm_env/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'SESSION_MANAGER': 'local/9eb3f769ab4a:@/tmp/.ICE-unix/64,unix/9eb3f769ab4a:/tmp/.ICE-unix/64', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'XDG_CURRENT_DESKTOP': 'MATE', 'VIRTUAL_ENV_PROMPT': '(arm_env)', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SUPERVISOR_ENABLED': '1', 'SSH_AUTH_SOCK': '/home/ubuntu/.cache/keyring-CWF3Q3/ssh', 'AMENT_PREFIX_PATH': '/workspace/install/servo_pkg:/workspace/install/robot_system:/workspace/install/pymoveit2:/workspace/install/deptrum-ros-driver-aurora930:/workspace/install/arm_moveit_config:/workspace/install/arm_description_pkg:/opt/ros/jazzy', 'TERMINATOR_UUID': 'urn:uuid:236bc22a-185f-4eed-b1b1-31b27f99576b', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PASSWD': 'ubuntu', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'VIRTUAL_ENV': '/workspace/arm_env', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'SUPERVISOR_PROCESS_NAME': 'vnc', 'PWD': '/workspace/build/robot_system', 'PYTHONPATH': '/workspace/build/robot_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/robot_system/lib/python3.12/site-packages:/workspace/arm_env/lib/python3.12/site-packages:/workspace/build/servo_pkg:/workspace/install/servo_pkg/lib/python3.12/site-packages:/workspace/build/robot_system:/workspace/install/robot_system/lib/python3.12/site-packages:/workspace/install/pymoveit2/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'REDIS_URL': 'redis://127.0.0.1:6379/0', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/workspace/install/pymoveit2:/workspace/install/deptrum-ros-driver-aurora930:/workspace/install/arm_moveit_config:/workspace/install/arm_description_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'QT_FONT_DPI': '96'}, 'shell': False}
+[9.032780] (-) TimerEvent: {}
+[9.142984] (-) TimerEvent: {}
+[9.244173] (-) TimerEvent: {}
+[9.346185] (-) TimerEvent: {}
+[9.447973] (-) TimerEvent: {}
+[9.549995] (-) TimerEvent: {}
+[9.650786] (-) TimerEvent: {}
+[9.751640] (-) TimerEvent: {}
+[9.852370] (-) TimerEvent: {}
+[9.953139] (-) TimerEvent: {}
+[10.053907] (-) TimerEvent: {}
+[10.155897] (-) TimerEvent: {}
+[10.262218] (-) TimerEvent: {}
+[10.365974] (-) TimerEvent: {}
+[10.472897] (-) TimerEvent: {}
+[10.579274] (-) TimerEvent: {}
+[10.686965] (-) TimerEvent: {}
+[10.792914] (-) TimerEvent: {}
+[10.896139] (-) TimerEvent: {}
+[11.002011] (-) TimerEvent: {}
+[11.106714] (-) TimerEvent: {}
+[11.207471] (-) TimerEvent: {}
+[11.309705] (-) TimerEvent: {}
+[11.410542] (-) TimerEvent: {}
+[11.513708] (-) TimerEvent: {}
+[11.614490] (-) TimerEvent: {}
+[11.715354] (-) TimerEvent: {}
+[11.819665] (-) TimerEvent: {}
+[11.924994] (-) TimerEvent: {}
+[12.025706] (-) TimerEvent: {}
+[12.126452] (-) TimerEvent: {}
+[12.227244] (-) TimerEvent: {}
+[12.328622] (-) TimerEvent: {}
+[12.393908] (robot_system) StdoutLine: {'line': b'running develop\n'}
+[12.430768] (-) TimerEvent: {}
+[12.531547] (-) TimerEvent: {}
+[12.636379] (-) TimerEvent: {}
+[12.740703] (-) TimerEvent: {}
+[12.842116] (-) TimerEvent: {}
+[12.943706] (-) TimerEvent: {}
+[13.046958] (-) TimerEvent: {}
+[13.149056] (-) TimerEvent: {}
+[13.250703] (-) TimerEvent: {}
+[13.352121] (-) TimerEvent: {}
+[13.454937] (-) TimerEvent: {}
+[13.558898] (-) TimerEvent: {}
+[13.659685] (-) TimerEvent: {}
+[13.760465] (-) TimerEvent: {}
+[13.861262] (-) TimerEvent: {}
+[13.962078] (-) TimerEvent: {}
+[14.062929] (-) TimerEvent: {}
+[14.163755] (-) TimerEvent: {}
+[14.264542] (-) TimerEvent: {}
+[14.365335] (-) TimerEvent: {}
+[14.468714] (-) TimerEvent: {}
+[14.541704] (robot_system) StdoutLine: {'line': b'running egg_info\n'}
+[14.568902] (-) TimerEvent: {}
+[14.669692] (-) TimerEvent: {}
+[14.755457] (robot_system) StdoutLine: {'line': b'writing robot_system.egg-info/PKG-INFO\n'}
+[14.756783] (robot_system) StdoutLine: {'line': b'writing dependency_links to robot_system.egg-info/dependency_links.txt\n'}
+[14.759305] (robot_system) StdoutLine: {'line': b'writing entry points to robot_system.egg-info/entry_points.txt\n'}
+[14.760473] (robot_system) StdoutLine: {'line': b'writing requirements to robot_system.egg-info/requires.txt\n'}
+[14.762686] (robot_system) StdoutLine: {'line': b'writing top-level names to robot_system.egg-info/top_level.txt\n'}
+[14.769879] (-) TimerEvent: {}
+[14.870667] (-) TimerEvent: {}
+[14.973902] (-) TimerEvent: {}
+[15.074700] (-) TimerEvent: {}
+[15.173123] (robot_system) StdoutLine: {'line': b"reading manifest file 'robot_system.egg-info/SOURCES.txt'\n"}
+[15.174847] (-) TimerEvent: {}
+[15.181475] (robot_system) StdoutLine: {'line': b"writing manifest file 'robot_system.egg-info/SOURCES.txt'\n"}
+[15.275037] (-) TimerEvent: {}
+[15.379766] (-) TimerEvent: {}
+[15.439014] (robot_system) StdoutLine: {'line': b'running build_ext\n'}
+[15.442316] (robot_system) StdoutLine: {'line': b'Creating /workspace/install/robot_system/lib/python3.12/site-packages/robot-system.egg-link (link to .)\n'}
+[15.448356] (robot_system) StdoutLine: {'line': b'Installing ai_workspace_classifier script to /workspace/install/robot_system/lib/robot_system\n'}
+[15.451882] (robot_system) StdoutLine: {'line': b'Installing arm_executor script to /workspace/install/robot_system/lib/robot_system\n'}
+[15.452813] (robot_system) StdoutLine: {'line': b'Installing go_to_point_geometric_ik_udp script to /workspace/install/robot_system/lib/robot_system\n'}
+[15.456302] (robot_system) StdoutLine: {'line': b'Installing moveit_validator script to /workspace/install/robot_system/lib/robot_system\n'}
+[15.459796] (robot_system) StdoutLine: {'line': b'Installing object_geometry_estimator script to /workspace/install/robot_system/lib/robot_system\n'}
+[15.463840] (robot_system) StdoutLine: {'line': b'Installing object_planning_agent script to /workspace/install/robot_system/lib/robot_system\n'}
+[15.465345] (robot_system) StdoutLine: {'line': b'Installing realtime_agent script to /workspace/install/robot_system/lib/robot_system\n'}
+[15.469946] (robot_system) StdoutLine: {'line': b'Installing text_agent script to /workspace/install/robot_system/lib/robot_system\n'}
+[15.471916] (robot_system) StdoutLine: {'line': b'Installing text_conversation script to /workspace/install/robot_system/lib/robot_system\n'}
+[15.474882] (robot_system) StdoutLine: {'line': b'Installing workspace_point_builder script to /workspace/install/robot_system/lib/robot_system\n'}
+[15.476453] (robot_system) StdoutLine: {'line': b'Installing workspace_scan_agent script to /workspace/install/robot_system/lib/robot_system\n'}
+[15.479472] (robot_system) StdoutLine: {'line': b'\n'}
+[15.480246] (-) TimerEvent: {}
+[15.483849] (robot_system) StdoutLine: {'line': b'Installed /workspace/build/robot_system\n'}
+[15.484756] (robot_system) StdoutLine: {'line': b'running symlink_data\n'}
+[15.580503] (-) TimerEvent: {}
+[15.681450] (-) TimerEvent: {}
+[15.731136] (robot_system) CommandEnded: {'returncode': 0}
+[15.782556] (-) TimerEvent: {}
+[15.891843] (-) TimerEvent: {}
+[15.913915] (robot_system) JobEnded: {'identifier': 'robot_system', 'rc': 0}
+[15.922509] (-) EventReactorShutdown: {}
